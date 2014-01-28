@@ -1,0 +1,49 @@
+@(title: String)(content: Html)(implicit lang: Lang)
+
+<!DOCTYPE html lang="@lang.code">
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@title</title>
+    <link rel='shortcut icon' type='image/png' href='@routes.Assets.at("images/favicon.png")'>
+    <link rel="stylesheet" type="text/css" media="screen" href='@routes.Assets.at("stylesheets/bootstrap.css")'>
+    <link rel="stylesheet" type="text/css" media="screen" href='@routes.Assets.at("stylesheets/bootstrap-theme.css")'> 
+    <link rel="stylesheet" type="text/css" media="screen" href='@routes.Assets.at("stylesheets/newbury.css")'> 
+
+</head>
+<body>
+
+     
+	<div class="container">
+	<!-- 
+		<div class="alert alert-success">
+        	<strong>Well done!</strong> You successfully read this important alert message.
+    	</div>
+     -->
+	<div class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+        	<a class="navbar-brand" href="@routes.Application.index()">@Messages("application.name")</a> 
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">Create A Game</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+</div> <!--/.nav container -->
+<div class="container">
+        @content
+</div> <!--/.container  -->
+
+<div class="container">
+	@debug()
+</div>
+<script type='text/javascript' src='@routes.Assets.at("javascripts/jquery.js")'></script>
+<script type='text/javascript' src='@routes.Assets.at("javascripts/bootstrap.js")'></script>
+</body>
+</html>
