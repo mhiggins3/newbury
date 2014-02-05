@@ -1,0 +1,35 @@
+@(productForm: Form[Product])(implicit flash: Flash, lang: Lang)
+@import helper._
+@import helper.twitterBootstrap._
+@main(Messages("products.form")) {
+	 <div class="container">
+    @if(flash.get("success").isDefined){
+      <div class="alert alert-success">
+        @flash.get("success")
+</div> }
+    @if(flash.get("error").isDefined){
+      <div class="alert alert-warning">
+        @flash.get("error")
+      </div>
+}
+  </div>
+	<h2>@Messages("products.form")</h2>
+	
+	@helper.form(action = routes.Products.save()){
+		<fieldset>
+			<legend>
+				@Messages("products.details", Messages("products.new"))
+			</legend>
+			@helper.inputText(productForm("ean"))
+			@helper.inputText(productForm("name"))
+			@helper.textarea(productForm("description"))
+		</fieldset>
+		<p>
+			<input type="submit" class="btn primary"
+				value='@Messages("products.new.submit")'>
+		</p>
+	
+	
+	}
+
+}
