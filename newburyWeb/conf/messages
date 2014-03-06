@@ -9,6 +9,13 @@ products.new = (new)
 products.new.command = New
 products.new.submit = Add
 products.new.success = Successfully added product {0}.
+
+users.form = User details
+users.new = (new)
+users.new.command = New
+users.new.submit = Add
+users.new.sucess = Successfully add user {0}.
+
 validation.errors = Please correct the errors in the form.
 validation.ean.duplicate = A product with this EAN code already exists
  

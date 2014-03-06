@@ -3,6 +3,7 @@ import scala.slick.driver.MySQLDriver.simple._
 
 import com.cti.core.model.User._
 import scala.slick.lifted.Query
+import com.cti.core.service.EntityExtensions._
 
 object UserExtensions {
 	

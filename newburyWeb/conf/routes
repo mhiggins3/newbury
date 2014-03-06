@@ -8,8 +8,9 @@ POST 	/products      				com.cti.web.controllers.Products.save()
 GET  	/products/new  				com.cti.web.controllers.Products.newProduct()
 GET 	/products/:ean				com.cti.web.controllers.Products.show(ean: Long)
 
-
-
+GET  	/users/new  				com.cti.web.controllers.Users.newUser()
+GET  	/users/:id  				com.cti.web.controllers.Users.editUser(id: Long)
+POST 	/users      				com.cti.web.controllers.Users.save()
 
 GET		/barcode/:ean				com.cti.web.controllers.Barcodes.barcode(ean: Long)
 # Map static resources from the /public folder to the /assets URL path
