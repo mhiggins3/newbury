@@ -1,6 +1,7 @@
 application.name = Newbury  
 ean = EAN
 name = Name
+serialNumber = Serial Number
 description = Description
 products.details = Product: {0}
  
@@ -15,6 +16,22 @@ users.new = (new)
 users.new.command = New
 users.new.submit = Add
 users.new.sucess = Successfully add user {0}.
+users.update.sucess = Successfully updated user {0}.
+users.delete.sucess = Successfully deleted user.
+
+user.firstName = First Name
+user.lastName = Last Name
+user.username = Username
+user.email = Email
+user.password = Password
+
+beacons.form = Beacon details
+beacons.new.sucess = Successfully add beacon {0}.
+beacons.delete.sucess = Successfully deleted beacon.
+beacons.update.sucess = Successfully updated beacon {0}.
+beacons.serialNumber = Serial Number
+
+phone.serialNumber = Phone Serial Number
 
 validation.errors = Please correct the errors in the form.
 validation.ean.duplicate = A product with this EAN code already exists

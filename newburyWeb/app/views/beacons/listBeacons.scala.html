@@ -1,0 +1,43 @@
+@(beacons: List[com.cti.core.model.Beacon.Beacon])(implicit flash: Flash, lang: Lang)
+@main(Messages("application.name")) {
+  @if(flash.get("success").isDefined){
+      <div class="alert alert-success">
+        @flash.get("success")
+</div> }
+    @if(flash.get("error").isDefined){
+      <div class="alert alert-error">
+        @flash.get("error")
+      </div>
+}	
+<div class="well" style="background-color: #fff">
+	<form role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search" id="searchMe">
+              </div>
+		</form>
+		<table class="table" data-function="datatable" data-stripe="true" data-tablesearch="#searchMe">
+			<thead>
+    			<tr>
+    				<th></th>
+    				<th>Name</th>
+    				<th>Serial Number</th>
+    				
+    			</tr>
+			</thead>
+			<tbody>
+			@for(beacon <- beacons) {
+				<tr>
+					<td><a href="@com.cti.web.controllers.routes.Beacons.edit(beacon.id getOrElse -1)">edit</a> | <a href="@com.cti.web.controllers.routes.Beacons.delete(beacon.id getOrElse -1)">delete</a></td>
+					<td>@beacon.name</td>
+					<td>@beacon.serialNumber</td>
+					
+				</tr>
+			}
+			</tbody>
+		</table>
+</div>
+
+<div class="well">
+	<a class="btn btn-default" href="@com.cti.web.controllers.routes.Beacons.newBeacon()" ><span class="glyphicon glyphicon-plus-sign"></span> Add Beacon</a>
+</div>
+}

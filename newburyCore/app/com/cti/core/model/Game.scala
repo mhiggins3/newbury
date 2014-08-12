@@ -1,19 +1,18 @@
 package com.cti.core.model
-import scala.slick.driver.MySQLDriver.simple._
 import Goal._
+import scala.slick.driver.MySQLDriver.simple._
 import User._
 
 object Game {
-	case class Game(id: Long, name: String, startClue: String)
+	case class Game(id: Option[Long] = None, name: String, startClue: String)
 
 	
-	class Games(tag: Tag) extends Table[Game](tag, "GAME") {
-		def id = column[Long]("ID", O.PrimaryKey, O.AutoInc)
+	class Games(tag: Tag) extends EntityTable[Game](tag, "GAME") {
 		def name = column[String]("NAME", O.NotNull)
 		def startClue = column[String]("START_CLUE", O.NotNull)
-		def * = (id, name, startClue) <> (Game.tupled, Game.unapply)
 		def goals = gameToGoals.filter(_.gameId === id).flatMap(_.goal) 
 		def players = gameToPlayer.filter(_.gameId === id).flatMap(_.game)
+		def * = (id.?, name, startClue) <> (Game.tupled, Game.unapply)
 	}
 	lazy val games = TableQuery[Games]
 

@@ -1,5 +1,5 @@
 package com.cti.core.model
 
 trait Entity {
-	def id: Long
+	def id: Option[Long]
 }

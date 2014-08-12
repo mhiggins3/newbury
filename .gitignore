@@ -73,6 +73,8 @@ local.properties
 .loadpath
 .project
 .classpath
+.worksheet/
+.worksheet
 # External tool builders
 .externalToolBuilders/
 

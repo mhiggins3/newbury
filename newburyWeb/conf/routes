@@ -9,10 +9,20 @@ GET  	/products/new  				com.cti.web.controllers.Products.newProduct()
 GET 	/products/:ean				com.cti.web.controllers.Products.show(ean: Long)
 
 GET  	/users/new  				com.cti.web.controllers.Users.newUser()
-GET  	/users/:id  				com.cti.web.controllers.Users.editUser(id: Long)
+GET  	/users/:id  				com.cti.web.controllers.Users.edit(id: Long)
+GET 	/users      				com.cti.web.controllers.Users.list()
 POST 	/users      				com.cti.web.controllers.Users.save()
+GET     /users/delete/:id			com.cti.web.controllers.Users.delete(id: Long)
+
+
+GET  	/beacons/new  				com.cti.web.controllers.Beacons.newBeacon()
+GET  	/beacons/:id  				com.cti.web.controllers.Beacons.edit(id: Long)
+GET 	/beacons      				com.cti.web.controllers.Beacons.list()
+POST 	/beacons      				com.cti.web.controllers.Beacons.save()
+GET     /beacons/delete/:id			com.cti.web.controllers.Beacons.delete(id: Long)
+
 
 GET		/barcode/:ean				com.cti.web.controllers.Barcodes.barcode(ean: Long)
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
-GET     /webjars/*file              controllers.WebJarAssets.at(file)
+# GET     /webjars/*file              controllers.WebJarAssets.at(file)

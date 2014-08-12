@@ -1,0 +1,906 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+$.fn.emulateTransitionEnd	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	f
+$.fn.emulateTransitionEnd	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	f
+ACTIVATOR_LAUNCH_JAR	newburyCore/activator.bat	/^set ACTIVATOR_LAUNCH_JAR=activator-launch-%APP_VERSION%.jar$/;"	v
+ACTIVATOR_LAUNCH_JAR	newburyWeb/activator.bat	/^set ACTIVATOR_LAUNCH_JAR=activator-launch-%APP_VERSION%.jar$/;"	v
+APP_VERSION	newburyCore/activator.bat	/^set APP_VERSION=1.0.10$/;"	v
+APP_VERSION	newburyWeb/activator.bat	/^set APP_VERSION=1.0.10$/;"	v
+Alert	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+Alert	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+Alert.close	newburyWeb/public/javascripts/bootstrap.js	/^  Alert.prototype.close = function (e) {$/;"	m
+Alert.close	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Alert.prototype.close = function (e) {$/;"	m
+Animation	newburyWeb/public/javascripts/jquery.js	/^function Animation( elem, properties, options ) {$/;"	f
+Animation	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function Animation( elem, properties, options ) {$/;"	f
+Application	newburyWeb/app/com/cti/web/controllers/Application.scala	/^object Application extends Controller {$/;"	c
+Application	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static final com.cti.web.controllers.ReverseApplication Application = new com.cti.web.controllers.ReverseApplication();$/;"	f	class:routes
+Application	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static final com.cti.web.controllers.javascript.ReverseApplication Application = new com.cti.web.controllers.javascript.ReverseApplication();$/;"	f	class:routes.javascript
+Application	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static final com.cti.web.controllers.ref.ReverseApplication Application = new com.cti.web.controllers.ref.ReverseApplication();$/;"	f	class:routes.ref
+ApplicationSpec	newburyWeb/test/ApplicationSpec.scala	/^class ApplicationSpec extends Specification {$/;"	c
+Assets	newburyWeb/target/scala-2.10/src_managed/main/controllers/routes.java	/^public static final controllers.ReverseAssets Assets = new controllers.ReverseAssets();$/;"	f	class:routes
+Assets	newburyWeb/target/scala-2.10/src_managed/main/controllers/routes.java	/^public static final controllers.javascript.ReverseAssets Assets = new controllers.javascript.ReverseAssets();$/;"	f	class:routes.javascript
+Assets	newburyWeb/target/scala-2.10/src_managed/main/controllers/routes.java	/^public static final controllers.ref.ReverseAssets Assets = new controllers.ref.ReverseAssets();$/;"	f	class:routes.ref
+BEACON	newburyWeb/conf/evolutions/default/2.sql	/^CREATE TABLE BEACON ($/;"	t
+BEACON	newburyWeb/target/scala-2.10/classes/evolutions/default/2.sql	/^CREATE TABLE BEACON ($/;"	t
+BEACON.ID	newburyWeb/conf/evolutions/default/2.sql	/^CREATE TABLE BEACON ($/;"	F
+BEACON.ID	newburyWeb/target/scala-2.10/classes/evolutions/default/2.sql	/^CREATE TABLE BEACON ($/;"	F
+BEACON.NAME	newburyWeb/conf/evolutions/default/2.sql	/^    ID bigint(20) NOT NULL AUTO_INCREMENT,$/;"	F
+BEACON.NAME	newburyWeb/target/scala-2.10/classes/evolutions/default/2.sql	/^    ID bigint(20) NOT NULL AUTO_INCREMENT,$/;"	F
+Barcodes	newburyWeb/app/com/cti/web/controllers/Barcodes.scala	/^object Barcodes extends Controller {$/;"	c
+Barcodes	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static final com.cti.web.controllers.ReverseBarcodes Barcodes = new com.cti.web.controllers.ReverseBarcodes();$/;"	f	class:routes
+Barcodes	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static final com.cti.web.controllers.javascript.ReverseBarcodes Barcodes = new com.cti.web.controllers.javascript.ReverseBarcodes();$/;"	f	class:routes.javascript
+Barcodes	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static final com.cti.web.controllers.ref.ReverseBarcodes Barcodes = new com.cti.web.controllers.ref.ReverseBarcodes();$/;"	f	class:routes.ref
+Beacon	newburyCore/app/com/cti/core/model/Beacon.scala	/^	case class Beacon(id: Option[Long] = None, name: String, serialNumber: String) extends Entity$/;"	c
+Beacon	newburyCore/app/com/cti/core/model/Beacon.scala	/^object Beacon {$/;"	c
+BeaconExtensions	newburyCore/app/com/cti/core/service/BeaconExtensions.scala	/^object BeaconExtensions {$/;"	c
+BeaconService	newburyCore/app/com/cti/core/service/BeaconService.scala	/^object BeaconService {$/;"	c
+Beacons	newburyCore/app/com/cti/core/model/Beacon.scala	/^	class Beacons(tag: Tag) extends EntityTable[Beacon](tag, "BEACON") {$/;"	c
+Beacons	newburyWeb/app/com/cti/web/controllers/Beacons.scala	/^object Beacons extends Controller {$/;"	c
+Beacons	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static final com.cti.web.controllers.ReverseBeacons Beacons = new com.cti.web.controllers.ReverseBeacons();$/;"	f	class:routes
+Beacons	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static final com.cti.web.controllers.javascript.ReverseBeacons Beacons = new com.cti.web.controllers.javascript.ReverseBeacons();$/;"	f	class:routes.javascript
+Beacons	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static final com.cti.web.controllers.ref.ReverseBeacons Beacons = new com.cti.web.controllers.ref.ReverseBeacons();$/;"	f	class:routes.ref
+BuildSettings	project/Build.scala	/^object BuildSettings {$/;"	c
+CFG_OPTS	newburyCore/activator.bat	/^    set CFG_OPTS=!CFG_OPTS! !DO_NOT_REUSE_ME!$/;"	v
+CFG_OPTS	newburyCore/activator.bat	/^set CFG_OPTS=$/;"	v
+CFG_OPTS	newburyWeb/activator.bat	/^    set CFG_OPTS=!CFG_OPTS! !DO_NOT_REUSE_ME!$/;"	v
+CFG_OPTS	newburyWeb/activator.bat	/^set CFG_OPTS=$/;"	v
+CMD	newburyCore/activator.bat	/^  ) else set CMD=%*$/;"	v
+CMD	newburyWeb/activator.bat	/^  ) else set CMD=%*$/;"	v
+CMDS	newburyCore/activator.bat	/^    set CMDS="ui"$/;"	v
+CMDS	newburyCore/activator.bat	/^) else set CMDS=%*$/;"	v
+CMDS	newburyWeb/activator.bat	/^    set CMDS="ui"$/;"	v
+CMDS	newburyWeb/activator.bat	/^) else set CMDS=%*$/;"	v
+Comment	newburyCore/app/com/cti/core/model/Comment.scala	/^case class Comment(id: Option[CommentId],$/;"	c
+CommentId	newburyCore/app/com/cti/core/model/Comment.scala	/^case class CommentId(id: Long) extends AnyVal with BaseId$/;"	c
+CommentId	newburyCore/app/com/cti/core/model/Comment.scala	/^object CommentId extends IdCompanion[CommentId]$/;"	c
+Comments	newburyCore/app/com/cti/core/model/Comment.scala	/^object Comments extends IdTable[CommentId, Comment]("COMMENTS") {$/;"	c
+DISCOVERY	newburyWeb/conf/evolutions/default/3.sql	/^CREATE TABLE DISCOVERY ($/;"	t
+DISCOVERY	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^CREATE TABLE DISCOVERY ($/;"	t
+DISCOVERY.BEACON_ID	newburyWeb/conf/evolutions/default/3.sql	/^	TIME datetime,$/;"	F
+DISCOVERY.BEACON_ID	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^	TIME datetime,$/;"	F
+DISCOVERY.GOAL_ID	newburyWeb/conf/evolutions/default/3.sql	/^	USER_ID bigint(20) NOT NULL,$/;"	F
+DISCOVERY.GOAL_ID	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^	USER_ID bigint(20) NOT NULL,$/;"	F
+DISCOVERY.ID	newburyWeb/conf/evolutions/default/3.sql	/^CREATE TABLE DISCOVERY ($/;"	F
+DISCOVERY.ID	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^CREATE TABLE DISCOVERY ($/;"	F
+DISCOVERY.TIME	newburyWeb/conf/evolutions/default/3.sql	/^	ID bigint(20) NOT NULL AUTO_INCREMENT,$/;"	F
+DISCOVERY.TIME	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^	ID bigint(20) NOT NULL AUTO_INCREMENT,$/;"	F
+DISCOVERY.USER_ID	newburyWeb/conf/evolutions/default/3.sql	/^	BEACON_ID bigint(20) NOT NULL,$/;"	F
+DISCOVERY.USER_ID	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^	BEACON_ID bigint(20) NOT NULL,$/;"	F
+DOUBLECLICKED	newburyCore/activator.bat	/^for %%x in (%cmdcmdline%) do if %%~x==\/c set DOUBLECLICKED=1$/;"	v
+DOUBLECLICKED	newburyWeb/activator.bat	/^for %%x in (%cmdcmdline%) do if %%~x==\/c set DOUBLECLICKED=1$/;"	v
+DO_NOT_REUSE_ME	newburyCore/activator.bat	/^    set DO_NOT_REUSE_ME=%%i$/;"	v
+DO_NOT_REUSE_ME	newburyWeb/activator.bat	/^    set DO_NOT_REUSE_ME=%%i$/;"	v
+Discoveries	newburyCore/app/com/cti/core/model/Discovery.scala	/^	class Discoveries(tag: Tag) extends EntityTable[Discovery](tag, "DISCOVERY"){$/;"	c
+Discovery	newburyCore/app/com/cti/core/model/Discovery.scala	/^	case class Discovery(id: Option[Long] = None, time: Date, beaconId: Long, userId: Long, goalId: Long) extends Entity$/;"	c
+Discovery	newburyCore/app/com/cti/core/model/Discovery.scala	/^object Discovery {$/;"	c
+Dropdown	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+Dropdown	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+Dropdown.keydown	newburyWeb/public/javascripts/bootstrap.js	/^  Dropdown.prototype.keydown = function (e) {$/;"	m
+Dropdown.keydown	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Dropdown.prototype.keydown = function (e) {$/;"	m
+ERROR_CODE	newburyCore/activator.bat	/^set ERROR_CODE=0$/;"	v
+ERROR_CODE	newburyCore/activator.bat	/^set ERROR_CODE=1$/;"	v
+ERROR_CODE	newburyWeb/activator.bat	/^set ERROR_CODE=0$/;"	v
+ERROR_CODE	newburyWeb/activator.bat	/^set ERROR_CODE=1$/;"	v
+Entity	newburyCore/app/com/cti/core/model/Entity.scala	/^trait Entity {$/;"	t
+EntityExtensions	newburyCore/app/com/cti/core/service/EntityExtensions.scala	/^object EntityExtensions{$/;"	c
+EntityQueryExtentions	newburyCore/app/com/cti/core/service/EntityExtensions.scala	/^	implicit class EntityQueryExtentions[T <: EntityTable[E],E](val q: Query[T,E]){$/;"	c
+EntityService	newburyCore/app/com/cti/core/service/EntityService.scala	/^class EntityService[T <: EntityTable[_]](tableQuery: TableQuery[T]) {$/;"	c
+EntityService	newburyCore/app/com/cti/core/service/EntityService.scala	/^object EntityService {$/;"	c
+EntityTable	newburyCore/app/com/cti/core/model/EntityTable.scala	/^abstract class EntityTable[E](tag: Tag, tableName: String) extends Table[E](tag, tableName){$/;"	c
+GAME	newburyWeb/conf/evolutions/default/3.sql	/^CREATE TABLE GAME ($/;"	t
+GAME	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^CREATE TABLE GAME ($/;"	t
+GAME.ID	newburyWeb/conf/evolutions/default/3.sql	/^CREATE TABLE GAME ($/;"	F
+GAME.ID	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^CREATE TABLE GAME ($/;"	F
+GAME.NAME	newburyWeb/conf/evolutions/default/3.sql	/^    ID bigint(20) NOT NULL AUTO_INCREMENT,$/;"	F
+GAME.NAME	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^    ID bigint(20) NOT NULL AUTO_INCREMENT,$/;"	F
+GAME.START_CLUE	newburyWeb/conf/evolutions/default/3.sql	/^    NAME varchar(255) NOT NULL,    $/;"	F
+GAME.START_CLUE	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^    NAME varchar(255) NOT NULL,    $/;"	F
+GAME_TO_GOAL	newburyWeb/conf/evolutions/default/3.sql	/^CREATE TABLE GAME_TO_GOAL ($/;"	t
+GAME_TO_GOAL	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^CREATE TABLE GAME_TO_GOAL ($/;"	t
+GAME_TO_GOAL.GAME_ID	newburyWeb/conf/evolutions/default/3.sql	/^CREATE TABLE GAME_TO_GOAL ($/;"	F
+GAME_TO_GOAL.GAME_ID	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^CREATE TABLE GAME_TO_GOAL ($/;"	F
+GAME_TO_GOAL.GAME_ID_INDEX	newburyWeb/conf/evolutions/default/4.sql	/^CREATE INDEX GAME_ID_INDEX ON GAME_TO_GOAL (GAME_ID);$/;"	i
+GAME_TO_GOAL.GAME_ID_INDEX	newburyWeb/target/scala-2.10/classes/evolutions/default/4.sql	/^CREATE INDEX GAME_ID_INDEX ON GAME_TO_GOAL (GAME_ID);$/;"	i
+GAME_TO_GOAL.GOAL_ID	newburyWeb/conf/evolutions/default/3.sql	/^	GAME_ID bigint(20) NOT NULL,$/;"	F
+GAME_TO_GOAL.GOAL_ID	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^	GAME_ID bigint(20) NOT NULL,$/;"	F
+GAME_TO_GOAL.GOAL_ID_INDEX	newburyWeb/conf/evolutions/default/4.sql	/^CREATE INDEX GOAL_ID_INDEX ON GAME_TO_GOAL (GOAL_ID);$/;"	i
+GAME_TO_GOAL.GOAL_ID_INDEX	newburyWeb/target/scala-2.10/classes/evolutions/default/4.sql	/^CREATE INDEX GOAL_ID_INDEX ON GAME_TO_GOAL (GOAL_ID);$/;"	i
+GAME_TO_PLAYER	newburyWeb/conf/evolutions/default/3.sql	/^CREATE TABLE GAME_TO_PLAYER ($/;"	t
+GAME_TO_PLAYER	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^CREATE TABLE GAME_TO_PLAYER ($/;"	t
+GAME_TO_PLAYER.GAME_ID	newburyWeb/conf/evolutions/default/3.sql	/^CREATE TABLE GAME_TO_PLAYER ($/;"	F
+GAME_TO_PLAYER.GAME_ID	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^CREATE TABLE GAME_TO_PLAYER ($/;"	F
+GAME_TO_PLAYER.GAME_ID_INDEX	newburyWeb/conf/evolutions/default/4.sql	/^CREATE INDEX GAME_ID_INDEX ON GAME_TO_PLAYER (GAME_ID);$/;"	i
+GAME_TO_PLAYER.GAME_ID_INDEX	newburyWeb/conf/evolutions/default/4.sql	/^DORP INDEX GAME_ID_INDEX ON GAME_TO_PLAYER;$/;"	i
+GAME_TO_PLAYER.GAME_ID_INDEX	newburyWeb/target/scala-2.10/classes/evolutions/default/4.sql	/^CREATE INDEX GAME_ID_INDEX ON GAME_TO_PLAYER (GAME_ID);$/;"	i
+GAME_TO_PLAYER.GAME_ID_INDEX	newburyWeb/target/scala-2.10/classes/evolutions/default/4.sql	/^DORP INDEX GAME_ID_INDEX ON GAME_TO_PLAYER;$/;"	i
+GAME_TO_PLAYER.PLAYER_ID	newburyWeb/conf/evolutions/default/3.sql	/^	GAME_ID bigint(20) NOT NULL,$/;"	F
+GAME_TO_PLAYER.PLAYER_ID	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^	GAME_ID bigint(20) NOT NULL,$/;"	F
+GAME_TO_PLAYER.PLAYER_ID_INDEX	newburyWeb/conf/evolutions/default/4.sql	/^CREATE INDEX PLAYER_ID_INDEX ON GAME_TO_PLAYER (PLAYER_ID);$/;"	i
+GAME_TO_PLAYER.PLAYER_ID_INDEX	newburyWeb/target/scala-2.10/classes/evolutions/default/4.sql	/^CREATE INDEX PLAYER_ID_INDEX ON GAME_TO_PLAYER (PLAYER_ID);$/;"	i
+GOAL	newburyWeb/conf/evolutions/default/2.sql	/^CREATE TABLE GOAL ($/;"	t
+GOAL	newburyWeb/target/scala-2.10/classes/evolutions/default/2.sql	/^CREATE TABLE GOAL ($/;"	t
+GOAL.BEACON_ID	newburyWeb/conf/evolutions/default/2.sql	/^    NEXT_CLUE varchar(255) NOT NULL,$/;"	F
+GOAL.BEACON_ID	newburyWeb/target/scala-2.10/classes/evolutions/default/2.sql	/^    NEXT_CLUE varchar(255) NOT NULL,$/;"	F
+GOAL.FOUND_MESSAGE	newburyWeb/conf/evolutions/default/2.sql	/^    HOT_CLUE varchar(255) NOT NULL,$/;"	F
+GOAL.FOUND_MESSAGE	newburyWeb/target/scala-2.10/classes/evolutions/default/2.sql	/^    HOT_CLUE varchar(255) NOT NULL,$/;"	F
+GOAL.HOT_CLUE	newburyWeb/conf/evolutions/default/2.sql	/^    WARM_CLUE varchar(255) NOT NULL,$/;"	F
+GOAL.HOT_CLUE	newburyWeb/target/scala-2.10/classes/evolutions/default/2.sql	/^    WARM_CLUE varchar(255) NOT NULL,$/;"	F
+GOAL.ID	newburyWeb/conf/evolutions/default/2.sql	/^CREATE TABLE GOAL ($/;"	F
+GOAL.ID	newburyWeb/target/scala-2.10/classes/evolutions/default/2.sql	/^CREATE TABLE GOAL ($/;"	F
+GOAL.NEXT_CLUE	newburyWeb/conf/evolutions/default/2.sql	/^    FOUND_MESSAGE varchar(255) NOT NULL,$/;"	F
+GOAL.NEXT_CLUE	newburyWeb/target/scala-2.10/classes/evolutions/default/2.sql	/^    FOUND_MESSAGE varchar(255) NOT NULL,$/;"	F
+GOAL.WARM_CLUE	newburyWeb/conf/evolutions/default/2.sql	/^    ID bigint(20) NOT NULL AUTO_INCREMENT,$/;"	F
+GOAL.WARM_CLUE	newburyWeb/target/scala-2.10/classes/evolutions/default/2.sql	/^    ID bigint(20) NOT NULL AUTO_INCREMENT,$/;"	F
+Game	newburyCore/app/com/cti/core/model/Game.scala	/^	case class Game(id: Option[Long] = None, name: String, startClue: String)$/;"	c
+Game	newburyCore/app/com/cti/core/model/Game.scala	/^object Game {$/;"	c
+GameToGoal	newburyCore/app/com/cti/core/model/Game.scala	/^	class GameToGoal(tag: Tag) extends Table[(Long, Long)](tag, "GAME_GOAL"){$/;"	c
+GameToPlayer	newburyCore/app/com/cti/core/model/Game.scala	/^	class GameToPlayer(tag: Tag) extends Table[(Long, Long)](tag, "GAME_PLAYER"){$/;"	c
+Games	newburyCore/app/com/cti/core/model/Game.scala	/^	class Games(tag: Tag) extends EntityTable[Game](tag, "GAME") {$/;"	c
+Global	newburyWeb/app/Global.scala	/^object Global extends GlobalSettings {$/;"	c
+Goal	newburyCore/app/com/cti/core/model/Goal.scala	/^	case class Goal(id: Option[Long] = None, warmClue: String, hotClue: String, foundMessage: String, nextClue: String, beaconId: Option[Long] = None) extends Entity$/;"	c
+Goal	newburyCore/app/com/cti/core/model/Goal.scala	/^object Goal {$/;"	c
+Goals	newburyCore/app/com/cti/core/model/Goal.scala	/^	class Goals(tag: Tag) extends EntityTable[Goal](tag, "GOAL") {$/;"	c
+ImageResolution	newburyWeb/app/com/cti/web/controllers/Barcodes.scala	/^  val ImageResolution = 144;$/;"	l
+IntegrationSpec	newburyWeb/test/IntegrationSpec.scala	/^class IntegrationSpec extends Specification {$/;"	c
+JAVACINSTALLED	newburyCore/activator.bat	/^  if %%~j==javac set JAVACINSTALLED=1$/;"	v
+JAVACINSTALLED	newburyWeb/activator.bat	/^  if %%~j==javac set JAVACINSTALLED=1$/;"	v
+JAVAINSTALLED	newburyCore/activator.bat	/^  if %%~j==Java set JAVAINSTALLED=1$/;"	v
+JAVAINSTALLED	newburyWeb/activator.bat	/^  if %%~j==Java set JAVAINSTALLED=1$/;"	v
+JAVAOK	newburyCore/activator.bat	/^if not defined JAVACINSTALLED set JAVAOK=false$/;"	v
+JAVAOK	newburyCore/activator.bat	/^if not defined JAVAINSTALLED set JAVAOK=false$/;"	v
+JAVAOK	newburyCore/activator.bat	/^set JAVAOK=true$/;"	v
+JAVAOK	newburyWeb/activator.bat	/^if not defined JAVACINSTALLED set JAVAOK=false$/;"	v
+JAVAOK	newburyWeb/activator.bat	/^if not defined JAVAINSTALLED set JAVAOK=false$/;"	v
+JAVAOK	newburyWeb/activator.bat	/^set JAVAOK=true$/;"	v
+JAVA_FRIENDLY_HOME	newburyCore/activator.bat	/^set JAVA_FRIENDLY_HOME=\/!JAVA_FRIENDLY_HOME_1: =%%20!$/;"	v
+JAVA_FRIENDLY_HOME	newburyWeb/activator.bat	/^set JAVA_FRIENDLY_HOME=\/!JAVA_FRIENDLY_HOME_1: =%%20!$/;"	v
+JAVA_FRIENDLY_HOME_1	newburyCore/activator.bat	/^set JAVA_FRIENDLY_HOME_1=\/!ACTIVATOR_HOME:\\=\/!$/;"	v
+JAVA_FRIENDLY_HOME_1	newburyWeb/activator.bat	/^set JAVA_FRIENDLY_HOME_1=\/!ACTIVATOR_HOME:\\=\/!$/;"	v
+PHONE	newburyWeb/conf/evolutions/default/6.sql	/^CREATE TABLE PHONE ($/;"	t
+PHONE	newburyWeb/target/scala-2.10/classes/evolutions/default/6.sql	/^CREATE TABLE PHONE ($/;"	t
+PHONE.ID	newburyWeb/conf/evolutions/default/6.sql	/^CREATE TABLE PHONE ($/;"	F
+PHONE.ID	newburyWeb/target/scala-2.10/classes/evolutions/default/6.sql	/^CREATE TABLE PHONE ($/;"	F
+PHONE.SERIAL_NUMBER	newburyWeb/conf/evolutions/default/6.sql	/^    ID bigint(20) NOT NULL AUTO_INCREMENT,$/;"	F
+PHONE.SERIAL_NUMBER	newburyWeb/target/scala-2.10/classes/evolutions/default/6.sql	/^    ID bigint(20) NOT NULL AUTO_INCREMENT,$/;"	F
+Phone	newburyCore/app/com/cti/core/model/Phone.scala	/^  case class Phone(id: Option[Long] = None, serialNumber: Option[String])$/;"	c
+Phone	newburyCore/app/com/cti/core/model/Phone.scala	/^object Phone {$/;"	c
+PhoneService	newburyCore/app/com/cti/core/service/PhoneService.scala	/^object PhoneService {$/;"	c
+Phones	newburyCore/app/com/cti/core/model/Phone.scala	/^  	class Phones(tag: Tag) extends EntityTable[Phone](tag, "PHONE") {$/;"	c
+Popover	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+Popover	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+Popover.Popover	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+Popover.Popover	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+Popover.Popover.Popover	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+Popover.Popover.Popover	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+Popover.Popover.getContent	newburyWeb/public/javascripts/bootstrap.js	/^  Popover.prototype.getContent = function () {$/;"	m
+Popover.Popover.getContent	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Popover.prototype.getContent = function () {$/;"	m
+Product	newburyWeb/app/models/Product.scala	/^case class Product(ean: Long, name: String, description: String)$/;"	c
+Product	newburyWeb/app/models/Product.scala	/^object Product {$/;"	c
+Products	newburyWeb/app/com/cti/web/controllers/Products.scala	/^object Products extends Controller {$/;"	c
+Products	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static final com.cti.web.controllers.ReverseProducts Products = new com.cti.web.controllers.ReverseProducts();$/;"	f	class:routes
+Products	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static final com.cti.web.controllers.javascript.ReverseProducts Products = new com.cti.web.controllers.javascript.ReverseProducts();$/;"	f	class:routes.javascript
+Products	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static final com.cti.web.controllers.ref.ReverseProducts Products = new com.cti.web.controllers.ref.ReverseProducts();$/;"	f	class:routes.ref
+QueryExtensions	newburyCore/app/com/cti/core/service/EntityExtensions.scala	/^	implicit class QueryExtensions[T,E](val q: Query[T,E]){$/;"	c
+ReverseApplication	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^class ReverseApplication {$/;"	c
+ReverseAssets	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^class ReverseAssets {$/;"	c
+ReverseBarcodes	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^class ReverseBarcodes {$/;"	c
+ReverseBeacons	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^class ReverseBeacons {$/;"	c
+ReverseProducts	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^class ReverseProducts {$/;"	c
+ReverseUsers	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^class ReverseUsers {$/;"	c
+ReverseWebJarAssets	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^class ReverseWebJarAssets {$/;"	c
+RootBuild	project/Build.scala	/^object RootBuild extends Build {$/;"	c
+Routes	newburyWeb/target/scala-2.10/src_managed/main/routes_routing.scala	/^object Routes extends Router.Routes {$/;"	c
+ScrollSpy	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+ScrollSpy	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+ScrollSpy.ScrollSpy	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+ScrollSpy.ScrollSpy	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+ScrollSpy.refresh	newburyWeb/public/javascripts/bootstrap.js	/^  ScrollSpy.prototype.refresh = function () {$/;"	m
+ScrollSpy.refresh	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  ScrollSpy.prototype.refresh = function () {$/;"	m
+Tooltip	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip.Tooltip	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip.Tooltip	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip.Tooltip.Tooltip	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip.Tooltip.Tooltip	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.getPosition	newburyWeb/public/javascripts/bootstrap.js	/^  Tooltip.prototype.getPosition = function () {$/;"	m
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.getPosition	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Tooltip.prototype.getPosition = function () {$/;"	m
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.getTitle	newburyWeb/public/javascripts/bootstrap.js	/^  Tooltip.prototype.getTitle = function () {$/;"	m
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.getTitle	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Tooltip.prototype.getTitle = function () {$/;"	m
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.hasContent	newburyWeb/public/javascripts/bootstrap.js	/^  Tooltip.prototype.hasContent = function () {$/;"	m
+Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.Tooltip.hasContent	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Tooltip.prototype.hasContent = function () {$/;"	m
+TupOps10	newburyCore/app/com/cti/core/util/TupleOps.scala	/^  implicit class TupOps10[A, B, C, D, E, F, G, H, I, J](val x: (A, B, C, D, E, F, G, H, I, J)) extends AnyVal {$/;"	c
+TupOps11	newburyCore/app/com/cti/core/util/TupleOps.scala	/^  implicit class TupOps11[A, B, C, D, E, F, G, H, I, J, K](val x: (A, B, C, D, E, F, G, H, I, J, K)) extends AnyVal {$/;"	c
+TupOps12	newburyCore/app/com/cti/core/util/TupleOps.scala	/^  implicit class TupOps12[A, B, C, D, E, F, G, H, I, J, K, L](val x: (A, B, C, D, E, F, G, H, I, J, K, L)) extends AnyVal {$/;"	c
+TupOps13	newburyCore/app/com/cti/core/util/TupleOps.scala	/^  implicit class TupOps13[A, B, C, D, E, F, G, H, I, J, K, L, M](val x: (A, B, C, D, E, F, G, H, I, J, K, L, M)) extends AnyVal {$/;"	c
+TupOps14	newburyCore/app/com/cti/core/util/TupleOps.scala	/^implicit class TupOps14[A, B, C, D, E, F, G, H, I, J, K, L, M, N](val x: (A, B, C, D, E, F, G, H, I, J, K, L, M, N)) extends AnyVal {$/;"	c
+TupOps15	newburyCore/app/com/cti/core/util/TupleOps.scala	/^implicit class TupOps15[A, B, C, D, E, F, G, H, I, J, K, L, M, N, O](val x: (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O)) extends AnyVal {$/;"	c
+TupOps16	newburyCore/app/com/cti/core/util/TupleOps.scala	/^implicit class TupOps16[A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P](val x: (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P)) extends AnyVal {$/;"	c
+TupOps17	newburyCore/app/com/cti/core/util/TupleOps.scala	/^implicit class TupOps17[A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q](val x: (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q)) extends AnyVal {$/;"	c
+TupOps18	newburyCore/app/com/cti/core/util/TupleOps.scala	/^implicit class TupOps18[A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R](val x: (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R)) extends AnyVal {$/;"	c
+TupOps19	newburyCore/app/com/cti/core/util/TupleOps.scala	/^implicit class TupOps19[A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S](val x: (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S)) extends AnyVal {$/;"	c
+TupOps2	newburyCore/app/com/cti/core/util/TupleOps.scala	/^  implicit class TupOps2[A, B](val x: (A, B)) extends AnyVal {$/;"	c
+TupOps20	newburyCore/app/com/cti/core/util/TupleOps.scala	/^implicit class TupOps20[A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T](val x: (A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T)) extends AnyVal {$/;"	c
+TupOps3	newburyCore/app/com/cti/core/util/TupleOps.scala	/^  implicit class TupOps3[A, B, C](val x: (A, B, C)) extends AnyVal {$/;"	c
+TupOps4	newburyCore/app/com/cti/core/util/TupleOps.scala	/^  implicit class TupOps4[A, B, C, D](val x: (A, B, C, D)) extends AnyVal {$/;"	c
+TupOps5	newburyCore/app/com/cti/core/util/TupleOps.scala	/^  implicit class TupOps5[A, B, C, D, E](val x: (A, B, C, D, E)) extends AnyVal {$/;"	c
+TupOps6	newburyCore/app/com/cti/core/util/TupleOps.scala	/^  implicit class TupOps6[A, B, C, D, E, F](val x: (A, B, C, D, E, F)) extends AnyVal {$/;"	c
+TupOps7	newburyCore/app/com/cti/core/util/TupleOps.scala	/^  implicit class TupOps7[A, B, C, D, E, F, G](val x: (A, B, C, D, E, F, G)) extends AnyVal {$/;"	c
+TupOps8	newburyCore/app/com/cti/core/util/TupleOps.scala	/^  implicit class TupOps8[A, B, C, D, E, F, G, H](val x: (A, B, C, D, E, F, G, H)) extends AnyVal {$/;"	c
+TupOps9	newburyCore/app/com/cti/core/util/TupleOps.scala	/^  implicit class TupOps9[A, B, C, D, E, F, G, H, I](val x: (A, B, C, D, E, F, G, H, I)) extends AnyVal {$/;"	c
+TupleOps	newburyCore/app/com/cti/core/util/TupleOps.scala	/^object TupleOps {$/;"	c
+Tween	newburyWeb/public/javascripts/jquery.js	/^function Tween( elem, options, prop, end, easing ) {$/;"	f
+Tween	newburyWeb/public/javascripts/jquery.js	/^jQuery.Tween = Tween;$/;"	c
+Tween	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function Tween( elem, options, prop, end, easing ) {$/;"	f
+Tween	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^jQuery.Tween = Tween;$/;"	c
+Tween.constructor	newburyWeb/public/javascripts/jquery.js	/^Tween.prototype = {$/;"	p
+Tween.constructor	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^Tween.prototype = {$/;"	p
+Tween.cur	newburyWeb/public/javascripts/jquery.js	/^	},$/;"	m
+Tween.cur	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	},$/;"	m
+Tween.init	newburyWeb/public/javascripts/jquery.js	/^	constructor: Tween,$/;"	m
+Tween.init	newburyWeb/public/javascripts/jquery.js	/^Tween.prototype.init.prototype = Tween.prototype;$/;"	m
+Tween.init	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	constructor: Tween,$/;"	m
+Tween.init	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^Tween.prototype.init.prototype = Tween.prototype;$/;"	m
+Tween.propHooks._default	newburyWeb/public/javascripts/jquery.js	/^Tween.propHooks = {$/;"	p
+Tween.propHooks._default	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^Tween.propHooks = {$/;"	p
+Tween.run	newburyWeb/public/javascripts/jquery.js	/^	},$/;"	m
+Tween.run	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	},$/;"	m
+USER	newburyWeb/conf/evolutions/default/1.sql	/^CREATE TABLE USER ($/;"	t
+USER	newburyWeb/conf/evolutions/default/3.sql	/^CREATE TABLE USER ($/;"	t
+USER	newburyWeb/target/scala-2.10/classes/evolutions/default/1.sql	/^CREATE TABLE USER ($/;"	t
+USER	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^CREATE TABLE USER ($/;"	t
+USER.EMAIL	newburyWeb/conf/evolutions/default/1.sql	/^    id bigint(20) NOT NULL AUTO_INCREMENT,$/;"	F
+USER.EMAIL	newburyWeb/conf/evolutions/default/3.sql	/^    USERNAME varchar(255) NOT NULL,$/;"	F
+USER.EMAIL	newburyWeb/target/scala-2.10/classes/evolutions/default/1.sql	/^    id bigint(20) NOT NULL AUTO_INCREMENT,$/;"	F
+USER.EMAIL	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^    USERNAME varchar(255) NOT NULL,$/;"	F
+USER.FIRST_NAME	newburyWeb/conf/evolutions/default/1.sql	/^    EMAIL varchar(255) NOT NULL,$/;"	F
+USER.FIRST_NAME	newburyWeb/conf/evolutions/default/3.sql	/^    ID bigint(20) NOT NULL AUTO_INCREMENT,$/;"	F
+USER.FIRST_NAME	newburyWeb/target/scala-2.10/classes/evolutions/default/1.sql	/^    EMAIL varchar(255) NOT NULL,$/;"	F
+USER.FIRST_NAME	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^    ID bigint(20) NOT NULL AUTO_INCREMENT,$/;"	F
+USER.ID	newburyWeb/conf/evolutions/default/3.sql	/^CREATE TABLE USER ($/;"	F
+USER.ID	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^CREATE TABLE USER ($/;"	F
+USER.LAST_NAME	newburyWeb/conf/evolutions/default/1.sql	/^    FIRST_NAME varchar(255) NOT NULL,$/;"	F
+USER.LAST_NAME	newburyWeb/conf/evolutions/default/3.sql	/^    FIRST_NAME varchar(255) NOT NULL,$/;"	F
+USER.LAST_NAME	newburyWeb/target/scala-2.10/classes/evolutions/default/1.sql	/^    FIRST_NAME varchar(255) NOT NULL,$/;"	F
+USER.LAST_NAME	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^    FIRST_NAME varchar(255) NOT NULL,$/;"	F
+USER.PASSWORD	newburyWeb/conf/evolutions/default/3.sql	/^    PHONE_ID varchar(255) NOT NULL,$/;"	F
+USER.PASSWORD	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^    PHONE_ID varchar(255) NOT NULL,$/;"	F
+USER.PHONE_ID	newburyWeb/conf/evolutions/default/3.sql	/^    EMAIL varchar(255) NOT NULL,$/;"	F
+USER.PHONE_ID	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^    EMAIL varchar(255) NOT NULL,$/;"	F
+USER.USERNAME	newburyWeb/conf/evolutions/default/3.sql	/^    LAST_NAME varchar(255) NOT NULL,$/;"	F
+USER.USERNAME	newburyWeb/target/scala-2.10/classes/evolutions/default/3.sql	/^    LAST_NAME varchar(255) NOT NULL,$/;"	F
+USER.id	newburyWeb/conf/evolutions/default/1.sql	/^CREATE TABLE USER ($/;"	F
+USER.id	newburyWeb/target/scala-2.10/classes/evolutions/default/1.sql	/^CREATE TABLE USER ($/;"	F
+User	newburyCore/app/com/cti/core/model/User.scala	/^  case class User(id: Option[Long] = None,firstName: String, lastName: String, username: String, email: String, phoneId: Option[Long] = None, password: String) extends Entity$/;"	c
+User	newburyCore/app/com/cti/core/model/User.scala	/^object User {$/;"	c
+UserExtensions	newburyCore/app/com/cti/core/service/UsersExtensions.scala	/^object UserExtensions {$/;"	c
+UserPhone	newburyCore/app/com/cti/core/model/User.scala	/^  case class UserPhone(user: Option[User], phone: Option[Phone])$/;"	c
+UserQueryExtensions	newburyCore/app/com/cti/core/service/BeaconExtensions.scala	/^  	implicit class UserQueryExtensions (val q: Query[Beacons, Beacon]){$/;"	c
+UserQueryExtensions	newburyCore/app/com/cti/core/service/UsersExtensions.scala	/^	implicit class UserQueryExtensions (val q: Query[Users, User]){$/;"	c
+UserService	newburyCore/app/com/cti/core/service/UserService.scala	/^object UserService {$/;"	c
+Users	newburyCore/app/com/cti/core/model/User.scala	/^  class Users(tag: Tag) extends EntityTable[User](tag, "USER") {$/;"	c
+Users	newburyWeb/app/com/cti/web/controllers/Users.scala	/^object Users extends Controller {$/;"	c
+Users	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static final com.cti.web.controllers.ReverseUsers Users = new com.cti.web.controllers.ReverseUsers();$/;"	f	class:routes
+Users	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static final com.cti.web.controllers.javascript.ReverseUsers Users = new com.cti.web.controllers.javascript.ReverseUsers();$/;"	f	class:routes.javascript
+Users	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static final com.cti.web.controllers.ref.ReverseUsers Users = new com.cti.web.controllers.ref.ReverseUsers();$/;"	f	class:routes.ref
+WebJarAssets	newburyWeb/target/scala-2.10/src_managed/main/controllers/routes.java	/^public static final controllers.ReverseWebJarAssets WebJarAssets = new controllers.ReverseWebJarAssets();$/;"	f	class:routes
+WebJarAssets	newburyWeb/target/scala-2.10/src_managed/main/controllers/routes.java	/^public static final controllers.javascript.ReverseWebJarAssets WebJarAssets = new controllers.javascript.ReverseWebJarAssets();$/;"	f	class:routes.javascript
+WebJarAssets	newburyWeb/target/scala-2.10/src_managed/main/controllers/routes.java	/^public static final controllers.ref.ReverseWebJarAssets WebJarAssets = new controllers.ref.ReverseWebJarAssets();$/;"	f	class:routes.ref
+_JAVACCMD	newburyCore/activator.bat	/^if "%_JAVACCMD%"=="" set _JAVACCMD=javac$/;"	v
+_JAVACCMD	newburyWeb/activator.bat	/^if "%_JAVACCMD%"=="" set _JAVACCMD=javac$/;"	v
+_JAVACMD	newburyCore/activator.bat	/^if "%_JAVACMD%"=="" set _JAVACMD=java$/;"	v
+_JAVACMD	newburyCore/activator.bat	/^set _JAVACMD=%JAVACMD%$/;"	v
+_JAVACMD	newburyWeb/activator.bat	/^if "%_JAVACMD%"=="" set _JAVACMD=java$/;"	v
+_JAVACMD	newburyWeb/activator.bat	/^set _JAVACMD=%JAVACMD%$/;"	v
+_JAVA_OPTS	newburyCore/activator.bat	/^if "%_JAVA_OPTS%"=="" set _JAVA_OPTS=%CFG_OPTS%$/;"	v
+_JAVA_OPTS	newburyCore/activator.bat	/^set _JAVA_OPTS=%JAVA_OPTS%$/;"	v
+_JAVA_OPTS	newburyWeb/activator.bat	/^if "%_JAVA_OPTS%"=="" set _JAVA_OPTS=%CFG_OPTS%$/;"	v
+_JAVA_OPTS	newburyWeb/activator.bat	/^set _JAVA_OPTS=%JAVA_OPTS%$/;"	v
+actualDisplay	newburyWeb/public/javascripts/jquery.js	/^function actualDisplay( name, doc ) {$/;"	f
+actualDisplay	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function actualDisplay( name, doc ) {$/;"	f
+add	newburyWeb/app/models/Product.scala	/^  def add(product: Product) = { products = products + product }$/;"	m
+addApp	activator	/^addApp () {$/;"	f
+addApp	newburyCore/activator	/^addApp () {$/;"	f
+addApp	newburyWeb/activator	/^addApp () {$/;"	f
+addDebugger	activator	/^addDebugger () {$/;"	f
+addDebugger	newburyCore/activator	/^addDebugger () {$/;"	f
+addDebugger	newburyWeb/activator	/^addDebugger () {$/;"	f
+addEditBeacon	newburyWeb/target/scala-2.10/src_managed/main/views/html/beacons/addEditBeacon.template.scala	/^object addEditBeacon extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,Format[play.api.templates.HtmlFormat.Appendable]](play.api.templates.HtmlFormat) with play.api.templates.Template4[Form[com.cti.core.model.Beacon.Beacon],Boolean,Flash,Lang,play.api.templates.HtmlFormat.Appendable] {$/;"	c
+addEditUser	newburyWeb/target/scala-2.10/src_managed/main/views/html/users/addEditUser.template.scala	/^object addEditUser extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,Format[play.api.templates.HtmlFormat.Appendable]](play.api.templates.HtmlFormat) with play.api.templates.Template4[Form[com.cti.core.model.User.UserPhone],Boolean,Flash,Lang,play.api.templates.HtmlFormat.Appendable] {$/;"	c
+addJava	activator	/^addJava () {$/;"	f
+addJava	newburyCore/activator	/^addJava () {$/;"	f
+addJava	newburyWeb/activator	/^addJava () {$/;"	f
+addResidual	activator	/^addResidual () {$/;"	f
+addResidual	newburyCore/activator	/^addResidual () {$/;"	f
+addResidual	newburyWeb/activator	/^addResidual () {$/;"	f
+addToPrefiltersOrTransports	newburyWeb/public/javascripts/jquery.js	/^function addToPrefiltersOrTransports( structure ) {$/;"	f
+addToPrefiltersOrTransports	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function addToPrefiltersOrTransports( structure ) {$/;"	f
+ajaxConvert	newburyWeb/public/javascripts/jquery.js	/^function ajaxConvert( s, response, jqXHR, isSuccess ) {$/;"	f
+ajaxConvert	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function ajaxConvert( s, response, jqXHR, isSuccess ) {$/;"	f
+ajaxExtend	newburyWeb/public/javascripts/jquery.js	/^function ajaxExtend( target, src ) {$/;"	f
+ajaxExtend	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function ajaxExtend( target, src ) {$/;"	f
+ajaxHandleResponses	newburyWeb/public/javascripts/jquery.js	/^function ajaxHandleResponses( s, jqXHR, responses ) {$/;"	f
+ajaxHandleResponses	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function ajaxHandleResponses( s, jqXHR, responses ) {$/;"	f
+apply	newburyWeb/target/scala-2.10/src_managed/main/views/html/beacons/addEditBeacon.template.scala	/^    def apply\/*1.2*\/(beaconForm: Form[com.cti.core.model.Beacon.Beacon], isNew: Boolean)(implicit flash: Flash, lang: Lang):play.api.templates.HtmlFormat.Appendable = {$/;"	m
+apply	newburyWeb/target/scala-2.10/src_managed/main/views/html/beacons/listBeacons.template.scala	/^    def apply\/*1.2*\/(beacons: List[com.cti.core.model.Beacon.Beacon])(implicit flash: Flash, lang: Lang):play.api.templates.HtmlFormat.Appendable = {$/;"	m
+apply	newburyWeb/target/scala-2.10/src_managed/main/views/html/debug.template.scala	/^    def apply\/*1.2*\/()(implicit lang: Lang):play.api.templates.HtmlFormat.Appendable = {$/;"	m
+apply	newburyWeb/target/scala-2.10/src_managed/main/views/html/index.template.scala	/^    def apply\/*1.2*\/(message: String):play.api.templates.HtmlFormat.Appendable = {$/;"	m
+apply	newburyWeb/target/scala-2.10/src_managed/main/views/html/main.template.scala	/^    def apply\/*1.2*\/(title: String)(content: Html)(implicit lang: Lang):play.api.templates.HtmlFormat.Appendable = {$/;"	m
+apply	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/detail.template.scala	/^    def apply\/*1.2*\/(product: Product)(implicit lang: Lang):play.api.templates.HtmlFormat.Appendable = {$/;"	m
+apply	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/editProduct.template.scala	/^    def apply\/*1.2*\/(productForm: Form[Product])(implicit flash: Flash, lang: Lang):play.api.templates.HtmlFormat.Appendable = {$/;"	m
+apply	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/list.template.scala	/^    def apply\/*1.2*\/(products: List[Product])(implicit flash: Flash, lang: Lang):play.api.templates.HtmlFormat.Appendable = {$/;"	m
+apply	newburyWeb/target/scala-2.10/src_managed/main/views/html/tags/barcode.template.scala	/^    def apply\/*1.2*\/(ean: Long):play.api.templates.HtmlFormat.Appendable = {$/;"	m
+apply	newburyWeb/target/scala-2.10/src_managed/main/views/html/users/addEditUser.template.scala	/^    def apply\/*1.2*\/(userForm: Form[com.cti.core.model.User.UserPhone], isNew: Boolean)(implicit flash: Flash, lang: Lang):play.api.templates.HtmlFormat.Appendable = {$/;"	m
+apply	newburyWeb/target/scala-2.10/src_managed/main/views/html/users/listUsers.template.scala	/^    def apply\/*1.2*\/(users: List[com.cti.core.model.User.User])(implicit flash: Flash, lang: Lang):play.api.templates.HtmlFormat.Appendable = {$/;"	m
+at	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def at : JavascriptReverseRoute = JavascriptReverseRoute($/;"	m
+at	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def at(file:String): Call = {$/;"	m
+at	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def at(file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef($/;"	m
+at	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef($/;"	m
+augmentWidthOrHeight	newburyWeb/public/javascripts/jquery.js	/^function augmentWidthOrHeight( elem, name, extra, isBorderBox, styles ) {$/;"	f
+augmentWidthOrHeight	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function augmentWidthOrHeight( elem, name, extra, isBorderBox, styles ) {$/;"	f
+author	newburyCore/app/com/cti/core/model/Comment.scala	/^  def author = foreignKey("COMMENTS_AUTHOR_FK", authorId, Users)(_.id)$/;"	m
+authorId	newburyCore/app/com/cti/core/model/Comment.scala	/^  def authorId = column[UserId]("AUTHOR")$/;"	m
+barcode	newburyWeb/app/com/cti/web/controllers/Barcodes.scala	/^    val barcode = new EAN13Bean()$/;"	l
+barcode	newburyWeb/app/com/cti/web/controllers/Barcodes.scala	/^  def barcode(ean: Long) = Action {$/;"	m
+barcode	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def barcode : JavascriptReverseRoute = JavascriptReverseRoute($/;"	m
+barcode	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def barcode(ean:Long): Call = {$/;"	m
+barcode	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def barcode(ean:Long): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef($/;"	m
+barcode	newburyWeb/target/scala-2.10/src_managed/main/views/html/tags/barcode.template.scala	/^object barcode extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,Format[play.api.templates.HtmlFormat.Appendable]](play.api.templates.HtmlFormat) with play.api.templates.Template1[Long,play.api.templates.HtmlFormat.Appendable] {$/;"	c
+base	newburyCore/app/com/cti/core/model/Comment.scala	/^  def base = text ~ authorId ~ date$/;"	m
+beacon	newburyCore/app/com/cti/core/model/Discovery.scala	/^	  def beacon = foreignKey("BEACON_ID", beaconId, beacons)(_.id)$/;"	m
+beacon	newburyCore/app/com/cti/core/model/Goal.scala	/^		def beacon = foreignKey("BEACON_ID", beaconId, beacons)(_.id)  $/;"	m
+beacon	newburyWeb/app/com/cti/web/controllers/Beacons.scala	/^    val beacon = BeaconService.findById(id)$/;"	l
+beaconId	newburyCore/app/com/cti/core/model/Discovery.scala	/^	  def beaconId = column[Long]("BEACON_ID", O.NotNull)$/;"	m
+beaconId	newburyCore/app/com/cti/core/model/Goal.scala	/^		def beaconId = column[Long]("BEACON_ID", O.NotNull)$/;"	m
+beacons	newburyCore/app/com/cti/core/model/Beacon.scala	/^	val beacons = TableQuery[Beacons]$/;"	l
+buildOrganization	project/Build.scala	/^  val buildOrganization = "cti"$/;"	l
+buildParams	newburyWeb/public/javascripts/jquery.js	/^function buildParams( prefix, obj, traditional, add ) {$/;"	f
+buildParams	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function buildParams( prefix, obj, traditional, add ) {$/;"	f
+buildScalaVersion	project/Build.scala	/^  val buildScalaVersion = "2.10.0"$/;"	l
+buildSettings	project/Build.scala	/^  val buildSettings = Defaults.defaultSettings ++ Seq ($/;"	l
+buildVersion	project/Build.scala	/^  val buildVersion      = "1.0.0"$/;"	l
+canvas	newburyWeb/app/com/cti/web/controllers/Barcodes.scala	/^    val canvas: BitmapCanvasProvider =$/;"	l
+clueone	newburyWeb/app/com/cti/web/controllers/Application.scala	/^    val clueone = goals.filter(_.beaconId === 1l)$/;"	l
+com.cti.core	newburyCore/app/com/cti/core/implicits/package.scala	/^package com.cti.core$/;"	p
+com.cti.core	newburyCore/app/com/cti/core/util/package.scala	/^package com.cti.core$/;"	p
+com.cti.core.model	newburyCore/app/com/cti/core/model/Beacon.scala	/^package com.cti.core.model$/;"	p
+com.cti.core.model	newburyCore/app/com/cti/core/model/Comment.scala	/^package com.cti.core.model$/;"	p
+com.cti.core.model	newburyCore/app/com/cti/core/model/Discovery.scala	/^package com.cti.core.model$/;"	p
+com.cti.core.model	newburyCore/app/com/cti/core/model/Entity.scala	/^package com.cti.core.model$/;"	p
+com.cti.core.model	newburyCore/app/com/cti/core/model/EntityTable.scala	/^package com.cti.core.model$/;"	p
+com.cti.core.model	newburyCore/app/com/cti/core/model/Game.scala	/^package com.cti.core.model$/;"	p
+com.cti.core.model	newburyCore/app/com/cti/core/model/Goal.scala	/^package com.cti.core.model$/;"	p
+com.cti.core.model	newburyCore/app/com/cti/core/model/Phone.scala	/^package com.cti.core.model$/;"	p
+com.cti.core.model	newburyCore/app/com/cti/core/model/User.scala	/^package com.cti.core.model$/;"	p
+com.cti.core.service	newburyCore/app/com/cti/core/service/BeaconExtensions.scala	/^package com.cti.core.service$/;"	p
+com.cti.core.service	newburyCore/app/com/cti/core/service/BeaconService.scala	/^package com.cti.core.service$/;"	p
+com.cti.core.service	newburyCore/app/com/cti/core/service/EntityExtensions.scala	/^package com.cti.core.service$/;"	p
+com.cti.core.service	newburyCore/app/com/cti/core/service/EntityService.scala	/^package com.cti.core.service$/;"	p
+com.cti.core.service	newburyCore/app/com/cti/core/service/PhoneService.scala	/^package com.cti.core.service$/;"	p
+com.cti.core.service	newburyCore/app/com/cti/core/service/UserService.scala	/^package com.cti.core.service$/;"	p
+com.cti.core.service	newburyCore/app/com/cti/core/service/UsersExtensions.scala	/^package com.cti.core.service$/;"	p
+com.cti.core.util	newburyCore/app/com/cti/core/util/TupleOps.scala	/^package com.cti.core.util$/;"	p
+com.cti.web.controllers	newburyWeb/app/com/cti/web/controllers/Application.scala	/^package com.cti.web.controllers$/;"	p
+com.cti.web.controllers	newburyWeb/app/com/cti/web/controllers/Barcodes.scala	/^package com.cti.web.controllers$/;"	p
+com.cti.web.controllers	newburyWeb/app/com/cti/web/controllers/Beacons.scala	/^package com.cti.web.controllers$/;"	p
+com.cti.web.controllers	newburyWeb/app/com/cti/web/controllers/Products.scala	/^package com.cti.web.controllers$/;"	p
+com.cti.web.controllers	newburyWeb/app/com/cti/web/controllers/Users.scala	/^package com.cti.web.controllers$/;"	p
+com.cti.web.controllers	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^package com.cti.web.controllers;$/;"	p
+com.cti.web.controllers	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^package com.cti.web.controllers {$/;"	p
+com.cti.web.controllers.javascript	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^package com.cti.web.controllers.javascript {$/;"	p
+com.cti.web.controllers.ref	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^package com.cti.web.controllers.ref {$/;"	p
+controllers	newburyWeb/target/scala-2.10/src_managed/main/controllers/routes.java	/^package controllers;$/;"	p
+controllers	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^package controllers {$/;"	p
+controllers.javascript	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^package controllers.javascript {$/;"	p
+controllers.ref	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^package controllers.ref {$/;"	p
+createActiveXHR	newburyWeb/public/javascripts/jquery.js	/^function createActiveXHR() {$/;"	f
+createActiveXHR	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function createActiveXHR() {$/;"	f
+createFxNow	newburyWeb/public/javascripts/jquery.js	/^function createFxNow() {$/;"	f
+createFxNow	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function createFxNow() {$/;"	f
+createStandardXHR	newburyWeb/public/javascripts/jquery.js	/^function createStandardXHR() {$/;"	f
+createStandardXHR	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function createStandardXHR() {$/;"	f
+createTween	newburyWeb/public/javascripts/jquery.js	/^function createTween( value, prop, animation ) {$/;"	f
+createTween	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function createTween( value, prop, animation ) {$/;"	f
+css_defaultDisplay	newburyWeb/public/javascripts/jquery.js	/^function css_defaultDisplay( nodeName ) {$/;"	f
+css_defaultDisplay	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function css_defaultDisplay( nodeName ) {$/;"	f
+curCSS	newburyWeb/public/javascripts/jquery.js	/^	};$/;"	f
+curCSS	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	};$/;"	f
+currentBeaconForm	newburyWeb/app/com/cti/web/controllers/Beacons.scala	/^    val currentBeaconForm = beaconForm.bindFromRequest()$/;"	l
+cygwinpath	activator	/^cygwinpath() {$/;"	f
+cygwinpath	newburyCore/activator	/^cygwinpath() {$/;"	f
+cygwinpath	newburyWeb/activator	/^cygwinpath() {$/;"	f
+dataType	newburyWeb/public/javascripts/jquery.js	/^		var dataType,$/;"	v
+dataType	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^		var dataType,$/;"	v
+date	newburyCore/app/com/cti/core/model/Comment.scala	/^  def date = column[DateTime]("DATE")$/;"	m
+db	newburyCore/app/com/cti/core/implicits/package.scala	/^	implicit val db = Database.forName("DefaultDS")$/;"	l
+db	newburyWeb/app/com/cti/web/controllers/Application.scala	/^    def db = Database.forDataSource(DB.getDataSource())$/;"	m
+debug	newburyWeb/target/scala-2.10/src_managed/main/views/html/debug.template.scala	/^object debug extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,Format[play.api.templates.HtmlFormat.Appendable]](play.api.templates.HtmlFormat) with play.api.templates.Template1[Lang,play.api.templates.HtmlFormat.Appendable] {$/;"	c
+defaultPrefilter	newburyWeb/public/javascripts/jquery.js	/^function defaultPrefilter( elem, props, opts ) {$/;"	f
+defaultPrefilter	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function defaultPrefilter( elem, props, opts ) {$/;"	f
+defaultPrefix	newburyWeb/target/scala-2.10/src_managed/main/routes_routing.scala	/^lazy val defaultPrefix = { if(Routes.prefix.endsWith("\/")) "" else "\/" }$/;"	l
+delete	newburyCore/app/com/cti/core/service/BeaconService.scala	/^    def delete(id: Long) = {$/;"	m
+delete	newburyCore/app/com/cti/core/service/UserService.scala	/^  def delete(id: Long) = {$/;"	m
+delete	newburyWeb/app/com/cti/web/controllers/Beacons.scala	/^  def delete(id: Long) = Action { implicit request => $/;"	m
+delete	newburyWeb/app/com/cti/web/controllers/Users.scala	/^  def delete(id: Long) = Action { implicit request => $/;"	m
+delete	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def delete : JavascriptReverseRoute = JavascriptReverseRoute($/;"	m
+delete	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def delete(id:Long): Call = {$/;"	m
+delete	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def delete(id:Long): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef($/;"	m
+detail	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/detail.template.scala	/^object detail extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,Format[play.api.templates.HtmlFormat.Appendable]](play.api.templates.HtmlFormat) with play.api.templates.Template2[Product,Lang,play.api.templates.HtmlFormat.Appendable] {$/;"	c
+detect_terminal_for_ui	activator	/^detect_terminal_for_ui() {$/;"	f
+detect_terminal_for_ui	newburyCore/activator	/^detect_terminal_for_ui() {$/;"	f
+detect_terminal_for_ui	newburyWeb/activator	/^detect_terminal_for_ui() {$/;"	f
+discoveries	newburyCore/app/com/cti/core/model/Discovery.scala	/^	val discoveries = TableQuery[Discoveries];$/;"	l
+display	newburyWeb/public/javascripts/jquery.js	/^	cssShow = { position: "absolute", visibility: "hidden", display: "block" },$/;"	p
+display	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	cssShow = { position: "absolute", visibility: "hidden", display: "block" },$/;"	p
+dlog	activator	/^dlog () {$/;"	f
+dlog	newburyCore/activator	/^dlog () {$/;"	f
+dlog	newburyWeb/activator	/^dlog () {$/;"	f
+documentation	newburyWeb/target/scala-2.10/src_managed/main/routes_routing.scala	/^def documentation = List(("""GET""", prefix,"""com.cti.web.controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """products""","""com.cti.web.controllers.Products.list()"""),("""POST""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """products""","""com.cti.web.controllers.Products.save()"""),("""GET""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """products\/new""","""com.cti.web.controllers.Products.newProduct()"""),("""GET""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """products\/$ean<[^\/]+>""","""com.cti.web.controllers.Products.show(ean:Long)"""),("""GET""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """users\/new""","""com.cti.web.controllers.Users.newUser()"""),("""GET""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """users\/$id<[^\/]+>""","""com.cti.web.controllers.Users.edit(id:Long)"""),("""GET""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """users""","""com.cti.web.controllers.Users.list()"""),("""POST""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """users""","""com.cti.web.controllers.Users.save()"""),("""GET""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """users\/delete\/$id<[^\/]+>""","""com.cti.web.controllers.Users.delete(id:Long)"""),("""GET""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """beacons\/new""","""com.cti.web.controllers.Beacons.newBeacon()"""),("""GET""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """beacons\/$id<[^\/]+>""","""com.cti.web.controllers.Beacons.edit(id:Long)"""),("""GET""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """beacons""","""com.cti.web.controllers.Beacons.list()"""),("""POST""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """beacons""","""com.cti.web.controllers.Beacons.save()"""),("""GET""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """beacons\/delete\/$id<[^\/]+>""","""com.cti.web.controllers.Beacons.delete(id:Long)"""),("""GET""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """barcode\/$ean<[^\/]+>""","""com.cti.web.controllers.Barcodes.barcode(ean:Long)"""),("""GET""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """assets\/$file<.+>""","""controllers.Assets.at(path:String = "\/public", file:String)"""),("""GET""", prefix + (if(prefix.endsWith("\/")) "" else "\/") + """webjars\/$file<.+>""","""controllers.WebJarAssets.at(file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {$/;"	m
+ean13BarCode	newburyWeb/app/com/cti/web/controllers/Barcodes.scala	/^  def ean13BarCode(ean: Long, mimeType: String): Array[Byte] = {$/;"	m
+echoerr	activator	/^echoerr () {$/;"	f
+echoerr	newburyCore/activator	/^echoerr () {$/;"	f
+echoerr	newburyWeb/activator	/^echoerr () {$/;"	f
+edit	newburyWeb/app/com/cti/web/controllers/Beacons.scala	/^   def edit(id: Long) = Action { implicit rs =>$/;"	m
+edit	newburyWeb/app/com/cti/web/controllers/Users.scala	/^  def edit(id: Long) = Action { implicit rs =>$/;"	m
+edit	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def edit : JavascriptReverseRoute = JavascriptReverseRoute($/;"	m
+edit	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def edit(id:Long): Call = {$/;"	m
+edit	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def edit(id:Long): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef($/;"	m
+editProduct	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/editProduct.template.scala	/^object editProduct extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,Format[play.api.templates.HtmlFormat.Appendable]](play.api.templates.HtmlFormat) with play.api.templates.Template3[Form[Product],Flash,Lang,play.api.templates.HtmlFormat.Appendable] {$/;"	c
+email	newburyCore/app/com/cti/core/model/User.scala	/^    val email = column[String]("EMAIL")$/;"	l
+end	newburyCore/activator.bat	/^:end$/;"	l
+end	newburyWeb/activator.bat	/^:end$/;"	l
+error	newburyCore/activator.bat	/^:error$/;"	l
+error	newburyWeb/activator.bat	/^:error$/;"	l
+execRunner	activator	/^execRunner () {$/;"	f
+execRunner	newburyCore/activator	/^execRunner () {$/;"	f
+execRunner	newburyWeb/activator	/^execRunner () {$/;"	f
+f	newburyWeb/target/scala-2.10/src_managed/main/views/html/beacons/addEditBeacon.template.scala	/^    def f:((Form[com.cti.core.model.Beacon.Beacon],Boolean) => (Flash,Lang) => play.api.templates.HtmlFormat.Appendable) = (beaconForm,isNew) => (flash,lang) => apply(beaconForm,isNew)(flash,lang)$/;"	m
+f	newburyWeb/target/scala-2.10/src_managed/main/views/html/beacons/listBeacons.template.scala	/^    def f:((List[com.cti.core.model.Beacon.Beacon]) => (Flash,Lang) => play.api.templates.HtmlFormat.Appendable) = (beacons) => (flash,lang) => apply(beacons)(flash,lang)$/;"	m
+f	newburyWeb/target/scala-2.10/src_managed/main/views/html/debug.template.scala	/^    def f:(() => (Lang) => play.api.templates.HtmlFormat.Appendable) = () => (lang) => apply()(lang)$/;"	m
+f	newburyWeb/target/scala-2.10/src_managed/main/views/html/index.template.scala	/^    def f:((String) => play.api.templates.HtmlFormat.Appendable) = (message) => apply(message)$/;"	m
+f	newburyWeb/target/scala-2.10/src_managed/main/views/html/main.template.scala	/^    def f:((String) => (Html) => (Lang) => play.api.templates.HtmlFormat.Appendable) = (title) => (content) => (lang) => apply(title)(content)(lang)$/;"	m
+f	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/detail.template.scala	/^    def f:((Product) => (Lang) => play.api.templates.HtmlFormat.Appendable) = (product) => (lang) => apply(product)(lang)$/;"	m
+f	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/editProduct.template.scala	/^    def f:((Form[Product]) => (Flash,Lang) => play.api.templates.HtmlFormat.Appendable) = (productForm) => (flash,lang) => apply(productForm)(flash,lang)$/;"	m
+f	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/list.template.scala	/^    def f:((List[Product]) => (Flash,Lang) => play.api.templates.HtmlFormat.Appendable) = (products) => (flash,lang) => apply(products)(flash,lang)$/;"	m
+f	newburyWeb/target/scala-2.10/src_managed/main/views/html/tags/barcode.template.scala	/^    def f:((Long) => play.api.templates.HtmlFormat.Appendable) = (ean) => apply(ean)$/;"	m
+f	newburyWeb/target/scala-2.10/src_managed/main/views/html/users/addEditUser.template.scala	/^    def f:((Form[com.cti.core.model.User.UserPhone],Boolean) => (Flash,Lang) => play.api.templates.HtmlFormat.Appendable) = (userForm,isNew) => (flash,lang) => apply(userForm,isNew)(flash,lang)$/;"	m
+f	newburyWeb/target/scala-2.10/src_managed/main/views/html/users/listUsers.template.scala	/^    def f:((List[com.cti.core.model.User.User]) => (Flash,Lang) => play.api.templates.HtmlFormat.Appendable) = (users) => (flash,lang) => apply(users)(flash,lang)$/;"	m
+filterByEmail	newburyCore/app/com/cti/core/service/UsersExtensions.scala	/^		def filterByEmail(email: Column[String]) : Query[Users, User] = q.filter(_.email === email)$/;"	m
+filterByFirstName	newburyCore/app/com/cti/core/service/UsersExtensions.scala	/^		def filterByFirstName(firstName: Column[String]) : Query[Users, User] = q.filter(_.firstName === firstName).sortBy(_.firstName)$/;"	m
+filterById	newburyCore/app/com/cti/core/service/EntityExtensions.scala	/^	  def filterById(id: Long): Query[T,E] = q.filter(_.id === id)	  $/;"	m
+filterByLastName	newburyCore/app/com/cti/core/service/UsersExtensions.scala	/^		def filterByLastName(lastName: Column[String]) : Query[Users, User] = q.filter(_.lastName === lastName).sortBy(_.lastName)$/;"	m
+filterBySerialNumber	newburyCore/app/com/cti/core/service/BeaconExtensions.scala	/^		def filterBySerialNumber(serialNumber: Column[String]) : Query[Beacons, Beacon] = q.filter(_.serialNumber === serialNumber)		$/;"	m
+filterByUsernameName	newburyCore/app/com/cti/core/service/UsersExtensions.scala	/^		def filterByUsernameName(username: Column[String]) : Query[Users, User] = q.filter(_.username === username)$/;"	m
+findAll	newburyCore/app/com/cti/core/service/BeaconService.scala	/^	def findAll(): List[Beacon] = {$/;"	m
+findAll	newburyCore/app/com/cti/core/service/EntityService.scala	/^	def findAll(): List[T] = {$/;"	m
+findAll	newburyCore/app/com/cti/core/service/UserService.scala	/^  def findAll(): List[User] = {$/;"	m
+findAll	newburyWeb/app/models/Product.scala	/^  def findAll = products.toList.sortBy(_.ean)$/;"	m
+findByEan	newburyWeb/app/models/Product.scala	/^  def findByEan(ean: Long) = products.find(_.ean == ean)$/;"	m
+findByEmail	newburyCore/app/com/cti/core/service/UserService.scala	/^  def findByEmail(email: String): Option[User] = {$/;"	m
+findByFirstName	newburyCore/app/com/cti/core/service/UserService.scala	/^  def findByFirstName(firstName: String): List[User] = {$/;"	m
+findById	newburyCore/app/com/cti/core/service/BeaconService.scala	/^  def findById(id: Long): Option[Beacon] = {$/;"	m
+findById	newburyCore/app/com/cti/core/service/UserService.scala	/^  def findById(id: Long): Option[User] = {$/;"	m
+findByIdWithPhone	newburyCore/app/com/cti/core/service/UserService.scala	/^  def findByIdWithPhone(id: Long): Option[UserPhone] = {$/;"	m
+findBySerialNumber	newburyCore/app/com/cti/core/service/BeaconService.scala	/^  def findBySerialNumber(serialNumber: String): Option[Beacon] = {$/;"	m
+findBySerialNumber	newburyCore/app/com/cti/core/service/PhoneService.scala	/^	def findBySerialNumber(serialNumber: String): Option[Phone] = {$/;"	m
+firstName	newburyCore/app/com/cti/core/model/User.scala	/^    val firstName = column[String]("FIRST_NAME")  $/;"	l
+fontWeight	newburyWeb/public/javascripts/jquery.js	/^		letterSpacing: 0,$/;"	p
+fontWeight	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^		letterSpacing: 0,$/;"	p
+form	newburyWeb/app/com/cti/web/controllers/Beacons.scala	/^    	val form: Form[Beacon] = if (flash.get("error").isDefined)$/;"	l
+form	newburyWeb/app/com/cti/web/controllers/Products.scala	/^    	val form = if (flash.get("error").isDefined)$/;"	l
+form	newburyWeb/app/com/cti/web/controllers/Users.scala	/^    	val form: Form[UserPhone] = if (flash.get("error").isDefined)$/;"	l
+foundMessage	newburyCore/app/com/cti/core/model/Goal.scala	/^		def foundMessage = column[String]("FOUND_MESSAGE", O.NotNull)$/;"	m
+fullName	newburyCore/app/com/cti/core/model/User.scala	/^    def fullName = firstName.asColumnOf[String] + " " + lastName.asColumnOf[String]$/;"	m
+function.ScrollSpy.DEFAULTS.offset	newburyWeb/public/javascripts/bootstrap.js	/^  ScrollSpy.DEFAULTS = {$/;"	p
+function.ScrollSpy.DEFAULTS.offset	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  ScrollSpy.DEFAULTS = {$/;"	p
+function.clearMenus	newburyWeb/public/javascripts/bootstrap.js	/^  function clearMenus() {$/;"	f
+function.clearMenus	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  function clearMenus() {$/;"	f
+game	newburyCore/app/com/cti/core/model/Game.scala	/^	  def game = foreignKey("GAME_ID", gameId, games)(game => game.id)$/;"	m
+gameId	newburyCore/app/com/cti/core/model/Game.scala	/^	  def gameId = column[Long]("GAME_ID", O.NotNull)$/;"	m
+gameToGoals	newburyCore/app/com/cti/core/model/Game.scala	/^	lazy val gameToGoals = TableQuery[GameToGoal]$/;"	l
+gameToPlayer	newburyCore/app/com/cti/core/model/Game.scala	/^	lazy val gameToPlayer = TableQuery[GameToPlayer]$/;"	l
+games	newburyCore/app/com/cti/core/model/Game.scala	/^	lazy val games = TableQuery[Games]$/;"	l
+genFx	newburyWeb/public/javascripts/jquery.js	/^function genFx( type, includeWidth ) {$/;"	f
+genFx	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function genFx( type, includeWidth ) {$/;"	f
+genFx.which.height	newburyWeb/public/javascripts/jquery.js	/^		attrs = { height: type },$/;"	p
+genFx.which.height	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^		attrs = { height: type },$/;"	p
+getStyles	newburyWeb/public/javascripts/jquery.js	/^if ( window.getComputedStyle ) {$/;"	f
+getStyles	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^if ( window.getComputedStyle ) {$/;"	f
+getWidthOrHeight	newburyWeb/public/javascripts/jquery.js	/^function getWidthOrHeight( elem, name, extra ) {$/;"	f
+getWidthOrHeight	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function getWidthOrHeight( elem, name, extra ) {$/;"	f
+getWindow	newburyWeb/public/javascripts/jquery.js	/^function getWindow( elem ) {$/;"	f
+getWindow	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function getWindow( elem ) {$/;"	f
+get_java_cmd	activator	/^get_java_cmd() {$/;"	f
+get_java_cmd	newburyCore/activator	/^get_java_cmd() {$/;"	f
+get_java_cmd	newburyWeb/activator	/^get_java_cmd() {$/;"	f
+get_mem_opts	activator	/^get_mem_opts () {$/;"	f
+get_mem_opts	newburyCore/activator	/^get_mem_opts () {$/;"	f
+get_mem_opts	newburyWeb/activator	/^get_mem_opts () {$/;"	f
+goal	newburyCore/app/com/cti/core/model/Discovery.scala	/^	  def goal = foreignKey("GOAL_ID", goalId, goals)(_.id)$/;"	m
+goal	newburyCore/app/com/cti/core/model/Game.scala	/^	  def goal = foreignKey("GOAL_ID", goalId, goals)(goal => goal.id)  $/;"	m
+goalId	newburyCore/app/com/cti/core/model/Discovery.scala	/^	  def goalId = column[Long]("GOAL_ID", O.NotNull)$/;"	m
+goalId	newburyCore/app/com/cti/core/model/Game.scala	/^	  def goalId = column[Long]("GOAL_ID", O.NotNull)$/;"	m
+goals	newburyCore/app/com/cti/core/model/Game.scala	/^		def goals = gameToGoals.filter(_.gameId === id).flatMap(_.goal) $/;"	m
+goals	newburyCore/app/com/cti/core/model/Goal.scala	/^	val goals = TableQuery[Goals]$/;"	l
+home	newburyWeb/test/ApplicationSpec.scala	/^      val home = route(FakeRequest(GET, "\/")).get$/;"	l
+hooks.empty.fire	newburyWeb/public/javascripts/jquery.js	/^			oldfire = hooks.empty.fire;$/;"	f
+hooks.empty.fire	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^			oldfire = hooks.empty.fire;$/;"	f
+hotClue	newburyCore/app/com/cti/core/model/Goal.scala	/^		def hotClue = column[String]("HOT_CLUE", O.NotNull)$/;"	m
+i	newburyCore/.worksheet/src/test.scala	/^  val i = (0 until n).map(i => "x._"+(i+1)).mkString(", ")$/;"	l
+id	newburyCore/app/com/cti/core/model/Entity.scala	/^	def id: Option[Long]$/;"	m
+id	newburyCore/app/com/cti/core/model/EntityTable.scala	/^	def id = column[Long]("ID", O.PrimaryKey, O.AutoInc, O.NotNull)$/;"	m
+imageData	newburyWeb/app/com/cti/web/controllers/Barcodes.scala	/^      val imageData = ean13BarCode(ean, mimeType)$/;"	l
+index	newburyWeb/app/com/cti/web/controllers/Application.scala	/^  def index = Action {$/;"	m
+index	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def index : JavascriptReverseRoute = JavascriptReverseRoute($/;"	m
+index	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def index(): Call = {$/;"	m
+index	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef($/;"	m
+index	newburyWeb/target/scala-2.10/src_managed/main/views/html/index.template.scala	/^object index extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,Format[play.api.templates.HtmlFormat.Appendable]](play.api.templates.HtmlFormat) with play.api.templates.Template1[String,play.api.templates.HtmlFormat.Appendable] {$/;"	c
+inspectPrefiltersOrTransports	newburyWeb/public/javascripts/jquery.js	/^function inspectPrefiltersOrTransports( structure, options, originalOptions, jqXHR ) {$/;"	f
+inspectPrefiltersOrTransports	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function inspectPrefiltersOrTransports( structure, options, originalOptions, jqXHR ) {$/;"	f
+inspectPrefiltersOrTransports.inspect	newburyWeb/public/javascripts/jquery.js	/^	function inspect( dataType ) {$/;"	f
+inspectPrefiltersOrTransports.inspect	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	function inspect( dataType ) {$/;"	f
+isHidden	newburyWeb/public/javascripts/jquery.js	/^function isHidden( elem, el ) {$/;"	f
+isHidden	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function isHidden( elem, el ) {$/;"	f
+is_cygwin	activator	/^is_cygwin() {$/;"	f
+is_cygwin	newburyCore/activator	/^is_cygwin() {$/;"	f
+is_cygwin	newburyWeb/activator	/^is_cygwin() {$/;"	f
+is_function_defined	activator	/^is_function_defined() {$/;"	f
+is_function_defined	newburyCore/activator	/^is_function_defined() {$/;"	f
+is_function_defined	newburyWeb/activator	/^is_function_defined() {$/;"	f
+jQuery.cssHooks.opacity.get	newburyWeb/public/javascripts/jquery.js	/^	jQuery.cssHooks.opacity = {$/;"	m
+jQuery.cssHooks.opacity.get	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	jQuery.cssHooks.opacity = {$/;"	m
+jQuery.cssHooks.opacity.set	newburyWeb/public/javascripts/jquery.js	/^		},$/;"	m
+jQuery.cssHooks.opacity.set	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^		},$/;"	m
+jQuery.easing.linear	newburyWeb/public/javascripts/jquery.js	/^jQuery.easing = {$/;"	m
+jQuery.easing.linear	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^jQuery.easing = {$/;"	m
+jQuery.easing.swing	newburyWeb/public/javascripts/jquery.js	/^	},$/;"	m
+jQuery.easing.swing	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	},$/;"	m
+jQuery.expr.filters.animated	newburyWeb/public/javascripts/jquery.js	/^if ( jQuery.expr && jQuery.expr.filters ) {$/;"	f
+jQuery.expr.filters.animated	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^if ( jQuery.expr && jQuery.expr.filters ) {$/;"	f
+jQuery.expr.filters.hidden	newburyWeb/public/javascripts/jquery.js	/^if ( jQuery.expr && jQuery.expr.filters ) {$/;"	f
+jQuery.expr.filters.hidden	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^if ( jQuery.expr && jQuery.expr.filters ) {$/;"	f
+jQuery.expr.filters.visible	newburyWeb/public/javascripts/jquery.js	/^	};$/;"	f
+jQuery.expr.filters.visible	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	};$/;"	f
+jQuery.fn.load	newburyWeb/public/javascripts/jquery.js	/^}$/;"	f
+jQuery.fn.load	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^}$/;"	f
+jQuery.fn.offset	newburyWeb/public/javascripts/jquery.js	/^}$/;"	f
+jQuery.fn.offset	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^}$/;"	f
+jQuery.fn.offset.docElem.left	newburyWeb/public/javascripts/jquery.js	/^		box = { top: 0, left: 0 },$/;"	p
+jQuery.fn.offset.docElem.left	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^		box = { top: 0, left: 0 },$/;"	p
+jQuery.fn.offset.docElem.top	newburyWeb/public/javascripts/jquery.js	/^		box = { top: 0, left: 0 },$/;"	p
+jQuery.fn.offset.docElem.top	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^		box = { top: 0, left: 0 },$/;"	p
+jQuery.fn.size	newburyWeb/public/javascripts/jquery.js	/^});$/;"	f
+jQuery.fn.size	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^});$/;"	f
+jQuery.fx.speeds._default	newburyWeb/public/javascripts/jquery.js	/^	fast: 200,$/;"	p
+jQuery.fx.speeds._default	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	fast: 200,$/;"	p
+jQuery.fx.speeds.fast	newburyWeb/public/javascripts/jquery.js	/^	slow: 600,$/;"	p
+jQuery.fx.speeds.fast	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	slow: 600,$/;"	p
+jQuery.fx.speeds.slow	newburyWeb/public/javascripts/jquery.js	/^jQuery.fx.speeds = {$/;"	p
+jQuery.fx.speeds.slow	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^jQuery.fx.speeds = {$/;"	p
+jQuery.fx.start	newburyWeb/public/javascripts/jquery.js	/^jQuery.fx.interval = 13;$/;"	f
+jQuery.fx.start	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^jQuery.fx.interval = 13;$/;"	f
+jQuery.fx.stop	newburyWeb/public/javascripts/jquery.js	/^};$/;"	f
+jQuery.fx.stop	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^};$/;"	f
+jQuery.fx.tick	newburyWeb/public/javascripts/jquery.js	/^jQuery.fx = Tween.prototype.init;$/;"	f
+jQuery.fx.tick	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^jQuery.fx = Tween.prototype.init;$/;"	f
+jQuery.fx.timer	newburyWeb/public/javascripts/jquery.js	/^};$/;"	f
+jQuery.fx.timer	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^};$/;"	f
+jQuery.offset.setOffset	newburyWeb/public/javascripts/jquery.js	/^jQuery.offset = {$/;"	m
+jQuery.offset.setOffset	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^jQuery.offset = {$/;"	m
+jQuery.param	newburyWeb/public/javascripts/jquery.js	/^});$/;"	f
+jQuery.param	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^});$/;"	f
+jQuery.speed	newburyWeb/public/javascripts/jquery.js	/^});$/;"	f
+jQuery.speed	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^});$/;"	f
+javascript	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static class javascript {$/;"	c	class:routes
+javascript	newburyWeb/target/scala-2.10/src_managed/main/controllers/routes.java	/^public static class javascript {$/;"	c	class:routes
+join	newburyCore/app/com/cti/core/service/UserService.scala	/^    	val join = for {$/;"	l
+lastName	newburyCore/app/com/cti/core/model/User.scala	/^    val lastName = column[String]("LAST_NAME")$/;"	l
+letterSpacing	newburyWeb/public/javascripts/jquery.js	/^	cssNormalTransform = {$/;"	p
+letterSpacing	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	cssNormalTransform = {$/;"	p
+list	newburyWeb/app/com/cti/web/controllers/Beacons.scala	/^  def list = Action { implicit request =>$/;"	m
+list	newburyWeb/app/com/cti/web/controllers/Products.scala	/^  def list = Action { implicit request =>$/;"	m
+list	newburyWeb/app/com/cti/web/controllers/Users.scala	/^  def list = Action {implicit request => $/;"	m
+list	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def list : JavascriptReverseRoute = JavascriptReverseRoute($/;"	m
+list	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def list(): Call = {$/;"	m
+list	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def list(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef($/;"	m
+list	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/list.template.scala	/^object list extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,Format[play.api.templates.HtmlFormat.Appendable]](play.api.templates.HtmlFormat) with play.api.templates.Template3[List[Product],Flash,Lang,play.api.templates.HtmlFormat.Appendable] {$/;"	c
+listBeacons	newburyWeb/target/scala-2.10/src_managed/main/views/html/beacons/listBeacons.template.scala	/^object listBeacons extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,Format[play.api.templates.HtmlFormat.Appendable]](play.api.templates.HtmlFormat) with play.api.templates.Template3[List[com.cti.core.model.Beacon.Beacon],Flash,Lang,play.api.templates.HtmlFormat.Appendable] {$/;"	c
+listUsers	newburyWeb/target/scala-2.10/src_managed/main/views/html/users/listUsers.template.scala	/^object listUsers extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,Format[play.api.templates.HtmlFormat.Appendable]](play.api.templates.HtmlFormat) with play.api.templates.Template3[List[com.cti.core.model.User.User],Flash,Lang,play.api.templates.HtmlFormat.Appendable] {$/;"	c
+loadConfigFile	activator	/^loadConfigFile() {$/;"	f
+loadConfigFile	newburyCore/activator	/^loadConfigFile() {$/;"	f
+loadConfigFile	newburyWeb/activator	/^loadConfigFile() {$/;"	f
+main	newburyWeb/target/scala-2.10/src_managed/main/views/html/main.template.scala	/^object main extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,Format[play.api.templates.HtmlFormat.Appendable]](play.api.templates.HtmlFormat) with play.api.templates.Template3[String,Html,Lang,play.api.templates.HtmlFormat.Appendable] {$/;"	c
+make_url	activator	/^make_url() {$/;"	f
+make_url	newburyCore/activator	/^make_url() {$/;"	f
+make_url	newburyWeb/activator	/^make_url() {$/;"	f
+message	newburyWeb/app/com/cti/web/controllers/Beacons.scala	/^            val message = Messages("beacons.update.sucess", currentBeacon.name)$/;"	l
+message	newburyWeb/app/com/cti/web/controllers/Beacons.scala	/^          val message = Messages("beacons.new.sucess", currentBeacon.name)$/;"	l
+message	newburyWeb/app/com/cti/web/controllers/Beacons.scala	/^    val message = Messages("beacons.delete.sucess")$/;"	l
+message	newburyWeb/app/com/cti/web/controllers/Products.scala	/^          val message = Messages("products.new.sucess", newProduct.name)$/;"	l
+message	newburyWeb/app/com/cti/web/controllers/Users.scala	/^            val message = Messages("users.update.sucess", newUser.user.get.firstName)$/;"	l
+message	newburyWeb/app/com/cti/web/controllers/Users.scala	/^          val message = Messages("users.new.sucess", newUser.user.get.firstName)$/;"	l
+message	newburyWeb/app/com/cti/web/controllers/Users.scala	/^    val message = Messages("users.delete.sucess")$/;"	l
+mimeType	newburyWeb/app/com/cti/web/controllers/Barcodes.scala	/^    val mimeType = "image\/png"$/;"	l
+models	newburyWeb/app/models/Product.scala	/^package models$/;"	p
+name	newburyCore/app/com/cti/core/model/Beacon.scala	/^		def name = column[String]("NAME", O.NotNull)$/;"	m
+name	newburyCore/app/com/cti/core/model/Game.scala	/^		def name = column[String]("NAME", O.NotNull)$/;"	m
+newBeacon	newburyWeb/app/com/cti/web/controllers/Beacons.scala	/^  def newBeacon = Action { implicit request =>$/;"	m
+newBeacon	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def newBeacon : JavascriptReverseRoute = JavascriptReverseRoute($/;"	m
+newBeacon	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def newBeacon(): Call = {$/;"	m
+newBeacon	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def newBeacon(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef($/;"	m
+newProduct	newburyWeb/app/com/cti/web/controllers/Products.scala	/^  def newProduct = Action { implicit request =>$/;"	m
+newProduct	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def newProduct : JavascriptReverseRoute = JavascriptReverseRoute($/;"	m
+newProduct	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def newProduct(): Call = {$/;"	m
+newProduct	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def newProduct(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef($/;"	m
+newProductForm	newburyWeb/app/com/cti/web/controllers/Products.scala	/^    val newProductForm = productForm.bindFromRequest()$/;"	l
+newUser	newburyCore/app/com/cti/core/service/UserService.scala	/^    val newUser: Option[User] = Some(userPhone.user.get.copy(phoneId = rvphone.get.id)) $/;"	l
+newUser	newburyWeb/app/com/cti/web/controllers/Users.scala	/^   def newUser = Action { implicit request =>$/;"	m
+newUser	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def newUser : JavascriptReverseRoute = JavascriptReverseRoute($/;"	m
+newUser	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def newUser(): Call = {$/;"	m
+newUser	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def newUser(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef($/;"	m
+newUserPhoneForm	newburyWeb/app/com/cti/web/controllers/Users.scala	/^    val newUserPhoneForm = userPhoneForm.bindFromRequest()$/;"	l
+newburyCore	project/Build.scala	/^  lazy val newburyCore = Project(id = "newburyCore", base = file("newburyCore"), settings = buildSettings)$/;"	l
+newburyWeb	project/Build.scala	/^  lazy val newburyWeb = Project(id = "newburyWeb", base = file("newburyWeb"), settings = buildSettings)$/;"	l
+nextClue	newburyCore/app/com/cti/core/model/Goal.scala	/^		def nextClue = column[String]("NEXT_CLUE", O.NotNull)$/;"	m
+nu	newburyCore/app/com/cti/core/service/UserService.scala	/^          val nu: Option[Phone] = None$/;"	l
+nu	newburyCore/app/com/cti/core/service/UserService.scala	/^          val nu: Option[User] = None$/;"	l
+object	newburyCore/app/com/cti/core/implicits/package.scala	/^package object implicits {$/;"	p
+object	newburyCore/app/com/cti/core/util/package.scala	/^package object util {$/;"	p
+oldCallbacks	newburyWeb/public/javascripts/jquery.js	/^var oldCallbacks = [],$/;"	v
+oldCallbacks	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^var oldCallbacks = [],$/;"	v
+opt.complete	newburyWeb/public/javascripts/jquery.js	/^	opt.old = opt.complete;$/;"	f
+opt.complete	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	opt.old = opt.complete;$/;"	f
+output	newburyWeb/app/com/cti/web/controllers/Barcodes.scala	/^    val output: ByteArrayOutputStream = new ByteArrayOutputStream$/;"	l
+page	newburyCore/app/com/cti/core/service/EntityExtensions.scala	/^	  def page(num: Int, pageSize: Int = 10): Query[T,E] = q.drop((num - 1) * pageSize).take(pageSize)$/;"	m
+password	newburyCore/app/com/cti/core/model/User.scala	/^    val password = column[String]("PASSWORD")$/;"	l
+phone	newburyCore/app/com/cti/core/model/User.scala	/^    def phone = foreignKey("PHONE_ID", phoneId, phones)(_.id)  $/;"	m
+phoneId	newburyCore/app/com/cti/core/model/User.scala	/^    val phoneId = column[Long]("PHONE_ID", O.Nullable)$/;"	l
+phones	newburyCore/app/com/cti/core/model/Phone.scala	/^	val phones = TableQuery[Phones]$/;"	l
+player	newburyCore/app/com/cti/core/model/Game.scala	/^	  def player = foreignKey("PLAYER_ID", playerId, users)(player => player.id)$/;"	m
+playerId	newburyCore/app/com/cti/core/model/Game.scala	/^	  def playerId = column[Long]("USER_ID", O.NotNull)$/;"	m
+players	newburyCore/app/com/cti/core/model/Game.scala	/^		def players = gameToPlayer.filter(_.gameId === id).flatMap(_.game)$/;"	m
+position	newburyWeb/public/javascripts/jquery.js	/^	cssShow = { position: "absolute", visibility: "hidden", display: "block" },$/;"	p
+position	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	cssShow = { position: "absolute", visibility: "hidden", display: "block" },$/;"	p
+prefix	newburyWeb/target/scala-2.10/src_managed/main/routes_routing.scala	/^def prefix = _prefix$/;"	m
+process_args	activator	/^process_args () {$/;"	f
+process_args	newburyCore/activator	/^process_args () {$/;"	f
+process_args	newburyWeb/activator	/^process_args () {$/;"	f
+products	newburyWeb/app/com/cti/web/controllers/Products.scala	/^    val products = Product.findAll$/;"	l
+products	newburyWeb/app/models/Product.scala	/^    var products = Set($/;"	l
+propFilter	newburyWeb/public/javascripts/jquery.js	/^function propFilter( props, specialEasing ) {$/;"	f
+propFilter	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function propFilter( props, specialEasing ) {$/;"	f
+r20	newburyWeb/public/javascripts/jquery.js	/^var r20 = \/%20\/g,$/;"	v
+r20	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^var r20 = \/%20\/g,$/;"	v
+realpath	activator	/^realpath () {$/;"	f
+realpath	newburyCore/activator	/^realpath () {$/;"	f
+realpath	newburyWeb/activator	/^realpath () {$/;"	f
+ref	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public static class ref {$/;"	c	class:routes
+ref	newburyWeb/target/scala-2.10/src_managed/main/controllers/routes.java	/^public static class ref {$/;"	c	class:routes
+ref	newburyWeb/target/scala-2.10/src_managed/main/views/html/beacons/addEditBeacon.template.scala	/^    def ref: this.type = this$/;"	m
+ref	newburyWeb/target/scala-2.10/src_managed/main/views/html/beacons/listBeacons.template.scala	/^    def ref: this.type = this$/;"	m
+ref	newburyWeb/target/scala-2.10/src_managed/main/views/html/debug.template.scala	/^    def ref: this.type = this$/;"	m
+ref	newburyWeb/target/scala-2.10/src_managed/main/views/html/index.template.scala	/^    def ref: this.type = this$/;"	m
+ref	newburyWeb/target/scala-2.10/src_managed/main/views/html/main.template.scala	/^    def ref: this.type = this$/;"	m
+ref	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/detail.template.scala	/^    def ref: this.type = this$/;"	m
+ref	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/editProduct.template.scala	/^    def ref: this.type = this$/;"	m
+ref	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/list.template.scala	/^    def ref: this.type = this$/;"	m
+ref	newburyWeb/target/scala-2.10/src_managed/main/views/html/tags/barcode.template.scala	/^    def ref: this.type = this$/;"	m
+ref	newburyWeb/target/scala-2.10/src_managed/main/views/html/users/addEditUser.template.scala	/^    def ref: this.type = this$/;"	m
+ref	newburyWeb/target/scala-2.10/src_managed/main/views/html/users/listUsers.template.scala	/^    def ref: this.type = this$/;"	m
+render	newburyWeb/target/scala-2.10/src_managed/main/views/html/beacons/addEditBeacon.template.scala	/^    def render(beaconForm:Form[com.cti.core.model.Beacon.Beacon],isNew:Boolean,flash:Flash,lang:Lang): play.api.templates.HtmlFormat.Appendable = apply(beaconForm,isNew)(flash,lang)$/;"	m
+render	newburyWeb/target/scala-2.10/src_managed/main/views/html/beacons/listBeacons.template.scala	/^    def render(beacons:List[com.cti.core.model.Beacon.Beacon],flash:Flash,lang:Lang): play.api.templates.HtmlFormat.Appendable = apply(beacons)(flash,lang)$/;"	m
+render	newburyWeb/target/scala-2.10/src_managed/main/views/html/debug.template.scala	/^    def render(lang:Lang): play.api.templates.HtmlFormat.Appendable = apply()(lang)$/;"	m
+render	newburyWeb/target/scala-2.10/src_managed/main/views/html/index.template.scala	/^    def render(message:String): play.api.templates.HtmlFormat.Appendable = apply(message)$/;"	m
+render	newburyWeb/target/scala-2.10/src_managed/main/views/html/main.template.scala	/^    def render(title:String,content:Html,lang:Lang): play.api.templates.HtmlFormat.Appendable = apply(title)(content)(lang)$/;"	m
+render	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/detail.template.scala	/^    def render(product:Product,lang:Lang): play.api.templates.HtmlFormat.Appendable = apply(product)(lang)$/;"	m
+render	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/editProduct.template.scala	/^    def render(productForm:Form[Product],flash:Flash,lang:Lang): play.api.templates.HtmlFormat.Appendable = apply(productForm)(flash,lang)$/;"	m
+render	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/list.template.scala	/^    def render(products:List[Product],flash:Flash,lang:Lang): play.api.templates.HtmlFormat.Appendable = apply(products)(flash,lang)$/;"	m
+render	newburyWeb/target/scala-2.10/src_managed/main/views/html/tags/barcode.template.scala	/^    def render(ean:Long): play.api.templates.HtmlFormat.Appendable = apply(ean)$/;"	m
+render	newburyWeb/target/scala-2.10/src_managed/main/views/html/users/addEditUser.template.scala	/^    def render(userForm:Form[com.cti.core.model.User.UserPhone],isNew:Boolean,flash:Flash,lang:Lang): play.api.templates.HtmlFormat.Appendable = apply(userForm,isNew)(flash,lang)$/;"	m
+render	newburyWeb/target/scala-2.10/src_managed/main/views/html/users/listUsers.template.scala	/^    def render(users:List[com.cti.core.model.User.User],flash:Flash,lang:Lang): play.api.templates.HtmlFormat.Appendable = apply(users)(flash,lang)$/;"	m
+require_arg	activator	/^require_arg () {$/;"	f
+require_arg	newburyCore/activator	/^require_arg () {$/;"	f
+require_arg	newburyWeb/activator	/^require_arg () {$/;"	f
+return	newburyWeb/public/javascripts/jquery.js	/^function Tween( elem, options, prop, end, easing ) {$/;"	c
+return	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function Tween( elem, options, prop, end, easing ) {$/;"	c
+return.init	newburyWeb/public/javascripts/jquery.js	/^	return new Tween.prototype.init( elem, options, prop, end, easing );$/;"	m
+return.init	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	return new Tween.prototype.init( elem, options, prop, end, easing );$/;"	m
+root	project/Build.scala	/^  lazy val root = Project(id = "root", base = file("."), settings = buildSettings)$/;"	l
+routes	newburyWeb/target/scala-2.10/src_managed/main/com/cti/web/controllers/routes.java	/^public class routes {$/;"	c
+routes	newburyWeb/target/scala-2.10/src_managed/main/controllers/routes.java	/^public class routes {$/;"	c
+routes	newburyWeb/target/scala-2.10/src_managed/main/routes_routing.scala	/^def routes:PartialFunction[RequestHeader,Handler] = {$/;"	m
+run	activator	/^run() {$/;"	f
+run	newburyCore/activator	/^run() {$/;"	f
+run	newburyCore/activator.bat	/^:run$/;"	l
+run	newburyWeb/activator	/^run() {$/;"	f
+run	newburyWeb/activator.bat	/^:run$/;"	l
+rvphone	newburyCore/app/com/cti/core/service/UserService.scala	/^    val rvphone: Option[Phone] = userPhone.phone match {$/;"	l
+rvuser	newburyCore/app/com/cti/core/service/UserService.scala	/^    val rvuser: Option[User] = newUser match {$/;"	l
+save	newburyWeb/app/com/cti/web/controllers/Beacons.scala	/^   def save = Action {implicit request =>$/;"	m
+save	newburyWeb/app/com/cti/web/controllers/Products.scala	/^  def save = Action { implicit request =>$/;"	m
+save	newburyWeb/app/com/cti/web/controllers/Users.scala	/^  def save = Action {implicit request =>$/;"	m
+save	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def save : JavascriptReverseRoute = JavascriptReverseRoute($/;"	m
+save	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def save(): Call = {$/;"	m
+save	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def save(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef($/;"	m
+saveOrUpdate	newburyCore/app/com/cti/core/service/BeaconService.scala	/^  def saveOrUpdate(beacon: Beacon): Beacon = {$/;"	m
+saveOrUpdate	newburyCore/app/com/cti/core/service/PhoneService.scala	/^	def saveOrUpdate(phone: Phone): Phone = {$/;"	m
+saveOrUpdate	newburyCore/app/com/cti/core/service/UserService.scala	/^  def saveOrUpdate(user: User): User = {$/;"	m
+saveOrUpdateUserAndPhone	newburyCore/app/com/cti/core/service/UserService.scala	/^  def saveOrUpdateUserAndPhone(userPhone: UserPhone): UserPhone = {$/;"	m
+serialNumber	newburyCore/app/com/cti/core/model/Beacon.scala	/^		def serialNumber = column[String]("SERIAL_NUMBER", O.NotNull)$/;"	m
+serialNumber	newburyCore/app/com/cti/core/model/Phone.scala	/^	  	val serialNumber = column[String]("SERIAL_NUMBER", O.NotNull)$/;"	l
+setPositiveNumber	newburyWeb/public/javascripts/jquery.js	/^function setPositiveNumber( elem, value, subtract ) {$/;"	f
+setPositiveNumber	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function setPositiveNumber( elem, value, subtract ) {$/;"	f
+setPrefix	newburyWeb/target/scala-2.10/src_managed/main/routes_routing.scala	/^def setPrefix(prefix: String) {$/;"	m
+show	newburyWeb/app/com/cti/web/controllers/Products.scala	/^  def show(ean: Long) = Action { implicit request => $/;"	m
+show	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def show : JavascriptReverseRoute = JavascriptReverseRoute($/;"	m
+show	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def show(ean:Long): Call = {$/;"	m
+show	newburyWeb/target/scala-2.10/src_managed/main/routes_reverseRouting.scala	/^def show(ean:Long): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef($/;"	m
+showHide	newburyWeb/public/javascripts/jquery.js	/^function showHide( elements, show ) {$/;"	f
+showHide	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function showHide( elements, show ) {$/;"	f
+startClue	newburyCore/app/com/cti/core/model/Game.scala	/^		def startClue = column[String]("START_CLUE", O.NotNull)$/;"	m
+t	newburyCore/.worksheet/src/test.scala	/^  val t = (0 until n).map(i => ('A'+i).toChar).mkString(", ")$/;"	l
+test	newburyCore/.worksheet/src/test.scala	/^object test {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; def main(args: Array[String])=$execute{;$skip(57); $/;"	c
+text	newburyCore/app/com/cti/core/model/Comment.scala	/^  def text = column[String]("TEXT")$/;"	m
+time	newburyCore/app/com/cti/core/model/Discovery.scala	/^	  def time = column[Date]("TIME", O.NotNull)$/;"	m
+transitionEnd	newburyWeb/public/javascripts/bootstrap.js	/^  function transitionEnd() {$/;"	f
+transitionEnd	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  function transitionEnd() {$/;"	f
+tupadd	newburyCore/.worksheet/src/test.scala	/^  val tupadd = for (n <- 2 to 20) yield {$/;"	l
+u	newburyCore/.worksheet/src/test.scala	/^  val u = ('A'+n).toChar$/;"	l
+usage	activator	/^usage() {$/;"	f
+usage	newburyCore/activator	/^usage() {$/;"	f
+usage	newburyWeb/activator	/^usage() {$/;"	f
+user	newburyCore/app/com/cti/core/model/Discovery.scala	/^	  def user = foreignKey("USER_ID", userId, users)(_.id)$/;"	m
+userId	newburyCore/app/com/cti/core/model/Discovery.scala	/^	  def userId = column[Long]("USER_ID", O.NotNull)$/;"	m
+userPhone	newburyWeb/app/com/cti/web/controllers/Users.scala	/^    val userPhone = UserService.findByIdWithPhone(id)$/;"	l
+username	newburyCore/app/com/cti/core/model/User.scala	/^    val username = column[String]("USERNAME")$/;"	l
+users	newburyCore/app/com/cti/core/model/User.scala	/^  val users = TableQuery[Users]$/;"	l
+var.Button	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Button	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Button.Button.loadingText	newburyWeb/public/javascripts/bootstrap.js	/^  Button.DEFAULTS = {$/;"	p
+var.Button.Button.loadingText	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Button.DEFAULTS = {$/;"	p
+var.Carousel	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Carousel	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Carousel.Carousel	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Carousel.Carousel	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Carousel.Carousel.interval	newburyWeb/public/javascripts/bootstrap.js	/^  Carousel.DEFAULTS = {$/;"	p
+var.Carousel.Carousel.interval	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Carousel.DEFAULTS = {$/;"	p
+var.Carousel.Carousel.pause	newburyWeb/public/javascripts/bootstrap.js	/^  , pause: 'hover'$/;"	p
+var.Carousel.Carousel.pause	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  , pause: 'hover'$/;"	p
+var.Carousel.Carousel.wrap	newburyWeb/public/javascripts/bootstrap.js	/^  , wrap: true$/;"	p
+var.Carousel.Carousel.wrap	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  , wrap: true$/;"	p
+var.Carousel.getActiveIndex	newburyWeb/public/javascripts/bootstrap.js	/^  Carousel.prototype.getActiveIndex = function () {$/;"	m
+var.Carousel.getActiveIndex	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Carousel.prototype.getActiveIndex = function () {$/;"	m
+var.Carousel.var.Carousel.Carousel.Carousel	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Carousel.var.Carousel.Carousel.Carousel	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Carousel.var.Carousel.Carousel.Carousel.next	newburyWeb/public/javascripts/bootstrap.js	/^  Carousel.prototype.next = function () {$/;"	m
+var.Carousel.var.Carousel.Carousel.Carousel.next	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Carousel.prototype.next = function () {$/;"	m
+var.Carousel.var.Carousel.Carousel.Carousel.prev	newburyWeb/public/javascripts/bootstrap.js	/^  Carousel.prototype.prev = function () {$/;"	m
+var.Carousel.var.Carousel.Carousel.Carousel.prev	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Carousel.prototype.prev = function () {$/;"	m
+var.Carousel.var.Carousel.Carousel.Carousel.slide	newburyWeb/public/javascripts/bootstrap.js	/^  Carousel.prototype.slide = function (type, next) {$/;"	m
+var.Carousel.var.Carousel.Carousel.Carousel.slide	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Carousel.prototype.slide = function (type, next) {$/;"	m
+var.Collapse	newburyWeb/public/javascripts/bootstrap.js	/^  var Collapse = function (element, options) {$/;"	m
+var.Collapse	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Collapse	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  var Collapse = function (element, options) {$/;"	m
+var.Collapse	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Collapse.Collapse.toggle	newburyWeb/public/javascripts/bootstrap.js	/^  Collapse.DEFAULTS = {$/;"	p
+var.Collapse.Collapse.toggle	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Collapse.DEFAULTS = {$/;"	p
+var.Modal	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Modal	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Modal.Modal	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Modal.Modal	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Modal.Modal.Modal	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Modal.Modal.Modal	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Modal.Modal.backdrop	newburyWeb/public/javascripts/bootstrap.js	/^  Modal.DEFAULTS = {$/;"	p
+var.Modal.Modal.backdrop	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Modal.DEFAULTS = {$/;"	p
+var.Modal.Modal.enforceFocus	newburyWeb/public/javascripts/bootstrap.js	/^  Modal.prototype.enforceFocus = function () {$/;"	m
+var.Modal.Modal.enforceFocus	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Modal.prototype.enforceFocus = function () {$/;"	m
+var.Modal.Modal.escape	newburyWeb/public/javascripts/bootstrap.js	/^  Modal.prototype.escape = function () {$/;"	m
+var.Modal.Modal.escape	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Modal.prototype.escape = function () {$/;"	m
+var.Modal.Modal.keyboard	newburyWeb/public/javascripts/bootstrap.js	/^    , keyboard: true$/;"	p
+var.Modal.Modal.keyboard	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^    , keyboard: true$/;"	p
+var.Modal.Modal.show	newburyWeb/public/javascripts/bootstrap.js	/^    , show: true$/;"	p
+var.Modal.Modal.show	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^    , show: true$/;"	p
+var.Modal.Modal.var.Modal.Modal.Modal.Modal	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Modal.Modal.var.Modal.Modal.Modal.Modal	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Modal.Modal.var.Modal.Modal.Modal.var.Modal.Modal.var.Modal.Modal.Modal.Modal.Modal	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Modal.Modal.var.Modal.Modal.Modal.var.Modal.Modal.var.Modal.Modal.Modal.Modal.Modal	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Modal.show	newburyWeb/public/javascripts/bootstrap.js	/^  Modal.prototype.show = function (_relatedTarget) {$/;"	m
+var.Modal.show	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Modal.prototype.show = function (_relatedTarget) {$/;"	m
+var.Popover	newburyWeb/public/javascripts/bootstrap.js	/^  var Popover = function (element, options) {$/;"	m
+var.Popover	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  var Popover = function (element, options) {$/;"	m
+var.Tab	newburyWeb/public/javascripts/bootstrap.js	/^  var Tab = function (element) {$/;"	m
+var.Tab	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Tab	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  var Tab = function (element) {$/;"	m
+var.Tab	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Tab.Affix	newburyWeb/public/javascripts/bootstrap.js	/^  var Affix = function (element, options) {$/;"	m
+var.Tab.Affix	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Tab.Affix	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  var Affix = function (element, options) {$/;"	m
+var.Tab.Affix	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Tab.Affix.checkPosition	newburyWeb/public/javascripts/bootstrap.js	/^  Affix.prototype.checkPosition = function () {$/;"	m
+var.Tab.Affix.checkPosition	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Affix.prototype.checkPosition = function () {$/;"	m
+var.Tab.var.Tab.Affix.checkPositionWithEventLoop	newburyWeb/public/javascripts/bootstrap.js	/^  Affix.prototype.checkPositionWithEventLoop = function () {$/;"	m
+var.Tab.var.Tab.Affix.checkPositionWithEventLoop	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Affix.prototype.checkPositionWithEventLoop = function () {$/;"	m
+var.Tooltip	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Tooltip	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.Tooltip.Tooltip.animation	newburyWeb/public/javascripts/bootstrap.js	/^  Tooltip.DEFAULTS = {$/;"	p
+var.Tooltip.Tooltip.animation	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Tooltip.DEFAULTS = {$/;"	p
+var.Tooltip.Tooltip.container	newburyWeb/public/javascripts/bootstrap.js	/^  , container: false$/;"	p
+var.Tooltip.Tooltip.container	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  , container: false$/;"	p
+var.Tooltip.Tooltip.delay	newburyWeb/public/javascripts/bootstrap.js	/^  , delay: 0$/;"	p
+var.Tooltip.Tooltip.delay	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  , delay: 0$/;"	p
+var.Tooltip.Tooltip.html	newburyWeb/public/javascripts/bootstrap.js	/^  , html: false$/;"	p
+var.Tooltip.Tooltip.html	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  , html: false$/;"	p
+var.Tooltip.Tooltip.placement	newburyWeb/public/javascripts/bootstrap.js	/^  , placement: 'top'$/;"	p
+var.Tooltip.Tooltip.placement	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  , placement: 'top'$/;"	p
+var.Tooltip.Tooltip.selector	newburyWeb/public/javascripts/bootstrap.js	/^  , selector: false$/;"	p
+var.Tooltip.Tooltip.selector	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  , selector: false$/;"	p
+var.Tooltip.Tooltip.template	newburyWeb/public/javascripts/bootstrap.js	/^  , template: '<div class="tooltip"><div class="tooltip-arrow"><\/div><div class="tooltip-inner"><\/div><\/div>'$/;"	p
+var.Tooltip.Tooltip.template	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  , template: '<div class="tooltip"><div class="tooltip-arrow"><\/div><div class="tooltip-inner"><\/div><\/div>'$/;"	p
+var.Tooltip.Tooltip.title	newburyWeb/public/javascripts/bootstrap.js	/^  , title: ''$/;"	p
+var.Tooltip.Tooltip.title	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  , title: ''$/;"	p
+var.Tooltip.Tooltip.trigger	newburyWeb/public/javascripts/bootstrap.js	/^  , trigger: 'hover focus'$/;"	p
+var.Tooltip.Tooltip.trigger	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  , trigger: 'hover focus'$/;"	p
+var.var.Button.Button	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Button.Button	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Carousel.cycle	newburyWeb/public/javascripts/bootstrap.js	/^  Carousel.prototype.cycle =  function (e) {$/;"	m
+var.var.Carousel.cycle	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Carousel.prototype.cycle =  function (e) {$/;"	m
+var.var.Collapse.Collapse	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Collapse.Collapse	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Collapse.var.var.Collapse.Collapse.Collapse	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Collapse.var.var.Collapse.Collapse.Collapse	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Collapse.var.var.Collapse.Collapse.Collapse.toggle	newburyWeb/public/javascripts/bootstrap.js	/^  Collapse.prototype.toggle = function () {$/;"	m
+var.var.Collapse.var.var.Collapse.Collapse.Collapse.toggle	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Collapse.prototype.toggle = function () {$/;"	m
+var.var.Modal.toggle	newburyWeb/public/javascripts/bootstrap.js	/^  Modal.prototype.toggle = function (_relatedTarget) {$/;"	m
+var.var.Modal.toggle	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Modal.prototype.toggle = function (_relatedTarget) {$/;"	m
+var.var.Tab.Tab	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Tab.Tab	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Tooltip.this.var.Tooltip	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Tooltip.this.var.Tooltip	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Tooltip.this.var.Tooltip.Tooltip	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Tooltip.this.var.Tooltip.Tooltip	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Tooltip.this.var.Tooltip.getDelegateOptions	newburyWeb/public/javascripts/bootstrap.js	/^  Tooltip.prototype.getDelegateOptions = function () {$/;"	m
+var.var.Tooltip.this.var.Tooltip.getDelegateOptions	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Tooltip.prototype.getDelegateOptions = function () {$/;"	m
+var.var.Tooltip.this.var.Tooltip.getOptions	newburyWeb/public/javascripts/bootstrap.js	/^  Tooltip.prototype.getOptions = function (options) {$/;"	m
+var.var.Tooltip.this.var.Tooltip.getOptions	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  Tooltip.prototype.getOptions = function (options) {$/;"	m
+var.var.Tooltip.this.var.Tooltip.options.delay.show	newburyWeb/public/javascripts/bootstrap.js	/^      options.delay = {$/;"	p
+var.var.Tooltip.this.var.Tooltip.options.delay.show	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^      options.delay = {$/;"	p
+var.var.Tooltip.this.var.Tooltip.var.var.Tooltip.this.var.Tooltip.Tooltip.Tooltip	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Tooltip.this.var.Tooltip.var.var.Tooltip.this.var.Tooltip.Tooltip.Tooltip	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Tooltip.this.var.Tooltip.var.var.Tooltip.this.var.Tooltip.Tooltip.var.var.Tooltip.this.var.Tooltip.var.var.Tooltip.this.var.Tooltip.Tooltip.Tooltip.Tooltip	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Tooltip.this.var.Tooltip.var.var.Tooltip.this.var.Tooltip.Tooltip.var.var.Tooltip.this.var.Tooltip.var.var.Tooltip.this.var.Tooltip.Tooltip.Tooltip.Tooltip	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Tooltip.this.var.Tooltip.var.var.Tooltip.this.var.Tooltip.Tooltip.var.var.Tooltip.this.var.Tooltip.var.var.Tooltip.this.var.Tooltip.Tooltip.Tooltip.var.var.Tooltip.this.var.Tooltip.var.var.Tooltip.this.var.Tooltip.Tooltip.var.var.Tooltip.this.var.Tooltip.var.var.Tooltip.this.var.Tooltip.Tooltip.Tooltip.Tooltip.var.Tooltip	newburyWeb/public/javascripts/bootstrap.js	/^  }$/;"	c
+var.var.Tooltip.this.var.Tooltip.var.var.Tooltip.this.var.Tooltip.Tooltip.var.var.Tooltip.this.var.Tooltip.var.var.Tooltip.this.var.Tooltip.Tooltip.Tooltip.var.var.Tooltip.this.var.Tooltip.var.var.Tooltip.this.var.Tooltip.Tooltip.var.var.Tooltip.this.var.Tooltip.var.var.Tooltip.this.var.Tooltip.Tooltip.Tooltip.Tooltip.var.Tooltip	newburyWeb/target/scala-2.10/classes/public/javascripts/bootstrap.js	/^  }$/;"	c
+vendorPropName	newburyWeb/public/javascripts/jquery.js	/^function vendorPropName( style, name ) {$/;"	f
+vendorPropName	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^function vendorPropName( style, name ) {$/;"	f
+views.html	newburyWeb/target/scala-2.10/src_managed/main/views/html/debug.template.scala	/^package views.html$/;"	p
+views.html	newburyWeb/target/scala-2.10/src_managed/main/views/html/index.template.scala	/^package views.html$/;"	p
+views.html	newburyWeb/target/scala-2.10/src_managed/main/views/html/main.template.scala	/^package views.html$/;"	p
+views.html.beacons	newburyWeb/target/scala-2.10/src_managed/main/views/html/beacons/addEditBeacon.template.scala	/^package views.html.beacons$/;"	p
+views.html.beacons	newburyWeb/target/scala-2.10/src_managed/main/views/html/beacons/listBeacons.template.scala	/^package views.html.beacons$/;"	p
+views.html.products	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/detail.template.scala	/^package views.html.products$/;"	p
+views.html.products	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/editProduct.template.scala	/^package views.html.products$/;"	p
+views.html.products	newburyWeb/target/scala-2.10/src_managed/main/views/html/products/list.template.scala	/^package views.html.products$/;"	p
+views.html.tags	newburyWeb/target/scala-2.10/src_managed/main/views/html/tags/barcode.template.scala	/^package views.html.tags$/;"	p
+views.html.users	newburyWeb/target/scala-2.10/src_managed/main/views/html/users/addEditUser.template.scala	/^package views.html.users$/;"	p
+views.html.users	newburyWeb/target/scala-2.10/src_managed/main/views/html/users/listUsers.template.scala	/^package views.html.users$/;"	p
+visibility	newburyWeb/public/javascripts/jquery.js	/^	cssShow = { position: "absolute", visibility: "hidden", display: "block" },$/;"	p
+visibility	newburyWeb/target/scala-2.10/classes/public/javascripts/jquery.js	/^	cssShow = { position: "absolute", visibility: "hidden", display: "block" },$/;"	p
+vlog	activator	/^vlog () {$/;"	f
+vlog	newburyCore/activator	/^vlog () {$/;"	f
+vlog	newburyWeb/activator	/^vlog () {$/;"	f
+warmClue	newburyCore/app/com/cti/core/model/Goal.scala	/^		def warmClue = column[String]("WARM_CLUE", O.NotNull)$/;"	m

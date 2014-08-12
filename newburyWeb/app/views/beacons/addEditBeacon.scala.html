@@ -1,0 +1,41 @@
+@(beaconForm: Form[com.cti.core.model.Beacon.Beacon], isNew: Boolean)(implicit flash: Flash, lang: Lang)
+@import helper.twitterBootstrap._
+@import com.cti.core.model.Beacon._
+@main(Messages("beacons.form")) {
+	 <div class="container">
+    @if(flash.get("success").isDefined){
+      <div class="alert alert-success">
+        @flash.get("success")
+</div> }
+    @if(flash.get("error").isDefined){
+      <div class="alert alert-warning">
+        @flash.get("error")
+      </div>
+}
+  </div>
+  @if(isNew){
+	<h2>Add Beacon</h2>
+	} else {
+	<h2>Update Beacon: @beaconForm("name").value</h2>
+	}
+		
+	<div class="well">
+	@helper.form(action = com.cti.web.controllers.routes.Beacons.save()){
+		<fieldset>
+			<legend>
+				Beacon Details
+			</legend>
+			
+			<input type="hidden" id="id" name="id" value="@beaconForm("id").value"/>	
+			
+			@helper.inputText(beaconForm("serialNumber"))
+			@helper.inputText(beaconForm("name"))
+			
+		</fieldset>
+		<p>
+			<input type="submit" class="btn primary"
+				value='@if(isNew){@Messages("users.new.submit")}else{Update}'>
+		</p>
+	}
+</div>
+}

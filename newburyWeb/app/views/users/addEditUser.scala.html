@@ -1,4 +1,4 @@
-@(userForm: Form[com.cti.core.model.User.User])(implicit flash: Flash, lang: Lang)
+@(userForm: Form[com.cti.core.model.User.UserPhone], isNew: Boolean)(implicit flash: Flash, lang: Lang)
 @import helper.twitterBootstrap._
 @import com.cti.core.model.User._
 @main(Messages("users.form")) {
@@ -13,27 +13,33 @@
       </div>
 }
   </div>
-	<h2>@Messages("users.form")</h2>
-	
+  @if(isNew){
+	<h2>Add user</h2>
+	} else {
+	<h2>Update User: @userForm("firstName").value, @userForm("lastName").value</h2>
+	}
+		
+	<div class="well">
 	@helper.form(action = com.cti.web.controllers.routes.Users.save()){
 		<fieldset>
 			<legend>
-				@Messages("users.details", Messages("users.new"))
+				User Details
 			</legend>
-			<input type="hidden" value='-1'/>
-			<input type="hidden" value='-1'/>
-			@helper.inputText(userForm("firstName"))
-			@helper.inputText(userForm("lastName"))
-			@helper.inputText(userForm("username"))
-			@helper.inputText(userForm("email"))
-			@helper.inputText(userForm("password"))
+			
+			<input type="hidden" id="user_id" name="user.id" value="@userForm("user.id").value"/>	
+			<input type="hidden" id="user_phoneId" name="user.phoneId" value="@userForm("user.phoneId").value"/>
+			<input type="hidden" id="phone_id" name="phone.id" value="@userForm("phone.id").value"/>
+			@helper.inputText(userForm("user.firstName"))
+			@helper.inputText(userForm("user.lastName"))
+			@helper.inputText(userForm("user.username"))
+			@helper.inputText(userForm("user.email"))
+			@helper.inputText(userForm("user.password"))
+			@helper.inputText(userForm("phone.serialNumber"))
 		</fieldset>
 		<p>
 			<input type="submit" class="btn primary"
-				value='@Messages("users.new.submit")'>
+				value='@if(isNew){@Messages("users.new.submit")}else{Update}'>
 		</p>
-	
-	
 	}
-
+</div>
 }

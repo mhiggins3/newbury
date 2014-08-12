@@ -7,10 +7,11 @@ import com.cti.core.service.EntityExtensions._
 
 object UserExtensions {
 	
-	implicit class UserQueryExtensions (val q: Query[Users, User]){
-		def findByFirstName(firstName: Column[String]) : Query[Users, User] = q.filter(_.firstName === firstName).sortBy(_.firstName);
-		def findByLastName(lastName: Column[String]) : Query[Users, User] = q.filter(_.lastName === lastName).sortBy(_.lastName);
-		def findByUsernameName(username: Column[String]) : Query[Users, User] = q.filter(_.username === username);
-		def findByEmailName(email: Column[String]) : Query[Users, User] = q.filter(_.username === email);
+	implicit class UserQueryExtensions (val q: Query[Users, User, Seq]){
+		def filterByFirstName(firstName: Column[String]) : Query[Users, User, Seq] = q.filter(_.firstName === firstName).sortBy(_.firstName)
+		def filterByLastName(lastName: Column[String]) : Query[Users, User, Seq] = q.filter(_.lastName === lastName).sortBy(_.lastName)
+		def filterByUsernameName(username: Column[String]) : Query[Users, User, Seq] = q.filter(_.username === username)
+		def filterByEmail(email: Column[String]) : Query[Users, User, Seq] = q.filter(_.email === email)
+		
 	}
 }
