@@ -12,6 +12,10 @@ object EntityExtensions{
 	}
 
 	implicit class EntityQueryExtentions[T <: EntityTable[E],E](val q: Query[T,E,Seq]){
-	  def filterById(id: Long): Query[T,E,Seq] = q.filter(_.id === id)	  
+	  def filterById(id: Long): Query[T,E,Seq] = q.filter(_.id === id)	
+	  def filterByUUID(uuid: String): Query[T,E,Seq] = q.filter(_.uuid === uuid)
+	  
 	}
+	
+	
 }

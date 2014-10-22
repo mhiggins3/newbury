@@ -4,7 +4,7 @@ import scala.slick.driver.MySQLDriver.simple._
 import User._
 
 object Game {
-	case class Game(id: Option[Long] = None, name: String, startClue: String)
+	case class Game(id: Option[Long] = None,uuid: String = java.util.UUID.randomUUID().toString(), name: String, startClue: String) extends Entity
 
 	
 	class Games(tag: Tag) extends EntityTable[Game](tag, "GAME") {
@@ -12,7 +12,7 @@ object Game {
 		def startClue = column[String]("START_CLUE", O.NotNull)
 		def goals = gameToGoals.filter(_.gameId === id).flatMap(_.goal) 
 		def players = gameToPlayer.filter(_.gameId === id).flatMap(_.game)
-		def * = (id.?, name, startClue) <> (Game.tupled, Game.unapply)
+		def * = (id.?, uuid, name, startClue) <> (Game.tupled, Game.unapply)
 	}
 	lazy val games = TableQuery[Games]
 

@@ -27,6 +27,9 @@
 			</legend>
 			
 			<input type="hidden" id="user_id" name="user.id" value="@userForm("user.id").value"/>	
+			<input type="hidden" id="user_uuid" name="user.uuid" value="@userForm("user.uuid").value"/>	
+			<input type="hidden" id="phone_uuid" name="phone.uuid" value="@userForm("phone.uuid").value"/>	
+			
 			<input type="hidden" id="user_phoneId" name="user.phoneId" value="@userForm("user.phoneId").value"/>
 			<input type="hidden" id="phone_id" name="phone.id" value="@userForm("phone.id").value"/>
 			@helper.inputText(userForm("user.firstName"))

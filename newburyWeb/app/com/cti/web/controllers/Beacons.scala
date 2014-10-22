@@ -11,6 +11,7 @@ object Beacons extends Controller {
   
   private val beaconForm: Form[Beacon] = Form(
       mapping("id" -> optional(longNumber), 
+          "uuid" -> text,
 		  "name" -> nonEmptyText,
 		  "serialNumber" -> nonEmptyText
       )(Beacon.apply)(Beacon.unapply))

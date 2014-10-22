@@ -13,6 +13,7 @@ object Users extends Controller {
 		  mapping(
 		      "user" -> optional(mapping(
 		           "id" -> optional(longNumber),
+		           "uuid" -> text,
 		           "firstName" -> nonEmptyText,
 		           "lastName" -> nonEmptyText,
 		           "username" -> nonEmptyText,
@@ -22,6 +23,7 @@ object Users extends Controller {
 		    		  )(User.apply)(User.unapply)),
 		      "phone" -> optional(mapping(
 		          "id" -> optional(longNumber),
+		          "uuid" -> text,
 		          "serialNumber" -> optional(text)
 		          )(Phone.apply)(Phone.unapply))
 		      )(UserPhone.apply)(UserPhone.unapply)

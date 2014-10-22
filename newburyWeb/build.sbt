@@ -14,8 +14,8 @@ libraryDependencies ++= Seq(
   //"org.webjars" % "bootstrap" % "3.0.0",
   //"org.webjars" % "knockout" % "2.3.0",
   //"org.webjars" % "requirejs" % "2.1.11-1",
-  "net.sf.barcode4j" % "barcode4j" % "2.0"
+  "net.sf.barcode4j" % "barcode4j" % "2.0",
+  "org.scala-lang.modules"  %% "scala-xml" % "1.0.1"
 )
 
-//lazy val newburyWeb = (project in file(".")).enablePlugins(PlayScala)
 

@@ -1,5 +1,7 @@
 package com.cti.core.service
 
+import com.cti.core.model.Entity
+
 object BeaconService {
   
   	import com.cti.core.implicits._
@@ -8,7 +10,14 @@ object BeaconService {
 	import com.cti.core.service.EntityExtensions._
 	import com.cti.core.service.BeaconExtensions._
 	
+	def withSession(f: Option[Entity] => Any) = {
+  		db.withSession { implicit session =>
+  			f
+  		}
+  	}
+	
 	def findAll(): List[Beacon] = {
+	  //withSession({beacons.list}) 
     db.withSession { implicit session =>
     	beacons.list
     }
@@ -27,15 +36,14 @@ object BeaconService {
   }
   def saveOrUpdate(beacon: Beacon): Beacon = {
     db.withTransaction { implicit session =>
-    if(beacon.id.isDefined){
-    	beacons.filterById(beacon.id.get).update(beacon)
-      } else {
-        beacons += beacon
-      }
+      beacons.insertOrUpdate(beacon)
+     
     }
-    db.withTransaction { implicit session =>
-  		findBySerialNumber(beacon.serialNumber).get
-    }
+    
+  	db.withTransaction { implicit session =>
+  findBySerialNumber(beacon.serialNumber).get
+  	}
+  
   }
     def delete(id: Long) = {
     db.withTransaction { implicit session => 

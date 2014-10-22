@@ -4,7 +4,7 @@ import com.cti.core.model.Phone._
 import com.cti.core.service.EntityExtensions._
 object User {
   
-  case class User(id: Option[Long] = None,firstName: String, lastName: String, username: String, email: String, phoneId: Option[Long] = None, password: String) extends Entity
+  case class User(id: Option[Long] = None,uuid: String = java.util.UUID.randomUUID().toString(),firstName: String, lastName: String, username: String, email: String, phoneId: Option[Long] = None, password: String) extends Entity
   case class UserPhone(user: Option[User], phone: Option[Phone])
   
   class Users(tag: Tag) extends EntityTable[User](tag, "USER") {
@@ -17,7 +17,7 @@ object User {
     def phone = foreignKey("PHONE_ID", phoneId, phones)(_.id)  
     def fullName = firstName.asColumnOf[String] + " " + lastName.asColumnOf[String]
     
-    def * = (id.?, firstName, lastName, username, email, phoneId.?, password) <> (User.tupled, User.unapply) 
+    def * = (id.?, uuid, firstName, lastName, username, email, phoneId.?, password) <> (User.tupled, User.unapply) 
   }
   val users = TableQuery[Users]
 }
